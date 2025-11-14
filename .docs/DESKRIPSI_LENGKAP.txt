@@ -1,0 +1,35 @@
+JIHATI ONLINE adalah aplikasi bacaan amaliyah santri yang dibuat dan dikembangkan oleh PW FORMASI RUA Surabaya sebagai layanan digital untuk menyediakan dokumen bacaan serta informasi santri. Aplikasi ini merupakan pengembangan dari Jihati, sebuah majmu' atau kumpulan bacaan harian santri RUA yang kini dihadirkan dalam bentuk digital demi kemudahan, kenyamanan, dan kemaslahatan pengguna.
+
+JIHATI ONLINE hadir untuk membantu santri dan alumni dalam melestarikan tradisi bacaan pesantren dengan beberapa fitur utama, antara lain:
+
+📗 Jihati
+Menfasilitasi para santri dan alumni untuk membaca dan menjaga keberlanjutan amaliyah pesantren secara lengkap dalam satu tempat. Berisi kumpulan bacaan harian, wirid, dan amalan yang telah dipraktikkan di pesantren RUA.
+
+📖 Al-Qur'an
+Menyediakan mushaf digital lengkap per surah, dilengkapi mode terang dan gelap, menyimpan surah, dan ukuran font yang dapat disesuaikan. Dilengkapi dengan terjemahan Bahasa Indonesia untuk memudahkan pemahaman.  
+
+🎑 Tema
+Tampilan antarmuka bernuansa santri dan pesantren, untuk pengalaman penggunaan yang lebih personal dan bermakna. Mendukung mode terang dan gelap sesuai preferensi pengguna.
+
+📝 Riwayat Bacaan
+Mencatat bacaan yang sudah dilihat atau diselesaikan, memudahkan pengguna melanjutkan bacaan sebelumnya. Fitur ini membantu menjaga konsistensi dalam membaca dan mengamalkan bacaan pesantren.
+
+🔰 Bookmark
+Fitur penanda untuk menyimpan bacaan favorit agar mudah diakses kembali kapan saja. Memudahkan pengguna untuk kembali ke bagian yang sering dibaca atau dipelajari.
+
+🔍 Pencarian
+Fitur pencarian cepat untuk menemukan bacaan tertentu secara efisien dan praktis. Memudahkan pengguna menemukan doa, wirid, atau surah yang dicari dengan cepat. 
+
+📚 Konten Lengkap:
+• Jihati - Kumpulan bacaan amaliyah santri
+• Al-Qur'an 30 juz dengan terjemahan
+• Ratib Al-Haddad dan hizib
+• Asmaul Husna dengan penjelasan
+
+💡 Manfaat untuk Pengguna:
+• Memudahkan akses ke bacaan pesantren
+• Menjaga tradisi amaliyah santri
+• Menyediakan referensi doa dan wirid
+• Menyimpan bacaan favorit untuk akses cepat   
+
+Jihati Online - Melestarikan Tradisi, Memudahkan Ibadah! 

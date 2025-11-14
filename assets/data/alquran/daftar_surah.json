@@ -1,0 +1,914 @@
+[
+    {
+      "verse_count": 7,
+      "name": "Al-Fatihah",
+      "translate": "Pembukaan",
+      "id": 1,
+      "type": "Makkiyah",
+      "juz_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Al-Baqarah",
+      "translate": "Sapi",
+      "type": "Madaniyah",
+      "verse_count": 286,
+      "juz_id": 1
+    },
+    {
+      "id": 3,
+      "verse_count": 200,
+      "name": "Ali 'Imran",
+      "translate": "Keluarga Imran",
+      "type": "Madaniyah",
+      "juz_id": 3
+    },
+    {
+      "type": "Madaniyah",
+      "id": 4,
+      "name": "An-Nisa'",
+      "translate": "Wanita",
+      "verse_count": 176,
+      "juz_id": 4
+    },
+    {
+      "verse_count": 120,
+      "type": "Madaniyah",
+      "name": "Al-Ma'idah",
+      "translate": "Hidangan",
+      "id": 5,
+      "juz_id": 6
+    },
+    {
+      "verse_count": 165,
+      "type": "Makkiyah",
+      "name": "Al-An'am",
+      "translate": "Binatang Ternak",
+      "id": 6,
+      "juz_id": 7
+    },
+    {
+      "verse_count": 206,
+      "id": 7,
+      "name": "Al-A'raf",
+      "translate": "Tempat Tertinggi",
+      "type": "Makkiyah",
+      "juz_id": 8
+    },
+    {
+      "verse_count": 75,
+      "type": "Madaniyah",
+      "name": "Al-Anfal",
+      "translate": "Rampasan Perang",
+      "id": 8,
+      "juz_id": 9
+    },
+    {
+      "type": "Madaniyah",
+      "verse_count": 129,
+      "name": "At-Taubah",
+      "translate": "Pengampunan",
+      "id": 9,
+      "juz_id": 10
+    },
+    {
+      "type": "Makkiyah",
+      "name": "Yunus",
+      "translate": "Yunus",
+      "verse_count": 109,
+      "id": 10,
+      "juz_id": 11
+    },
+    {
+      "verse_count": 123,
+      "name": "Hud",
+      "translate": "Hud",
+      "type": "Makkiyah",
+      "id": 11,
+      "juz_id": 11
+    },
+    {
+      "name": "Yusuf",
+      "translate": "Yusuf",
+      "id": 12,
+      "verse_count": 111,
+      "type": "Makkiyah",
+      "juz_id": 12
+    },
+    {
+      "type": "Madaniyah",
+      "id": 13,
+      "name": "Ar-Ra'd",
+      "translate": "Guruh",
+      "verse_count": 43,
+      "juz_id": 13
+    },
+    {
+      "id": 14,
+      "type": "Makkiyah",
+      "verse_count": 52,
+      "name": "Ibrahim",
+      "translate": "Ibrahim",
+      "juz_id": 13
+    },
+    {
+      "verse_count": 99,
+      "name": "Al-Hijr",
+      "translate": "Hijr",
+      "id": 15,
+      "type": "Makkiyah",
+      "juz_id": 14
+    },
+    {
+      "id": 16,
+      "name": "An-Nahl",
+      "translate": "Lebah",
+      "verse_count": 128,
+      "type": "Makkiyah",
+      "juz_id": 14
+    },
+    {
+      "type": "Makkiyah",
+      "id": 17,
+      "name": "Al-Isra'",
+      "translate": "Memperjalankan Malam Hari",
+      "verse_count": 111,
+      "juz_id": 15
+    },
+    {
+      "id": 18,
+      "type": "Makkiyah",
+      "verse_count": 110,
+      "name": "Al-Kahf",
+      "translate": "Gua",
+      "juz_id": 15
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 98,
+      "name": "Maryam",
+      "translate": "Maryam",
+      "id": 19,
+      "juz_id": 16
+    },
+    {
+      "type": "Makkiyah",
+      "id": 20,
+      "verse_count": 135,
+      "name": "Thaha",
+      "translate": "Thaha",
+      "juz_id": 16
+    },
+    {
+      "verse_count": 112,
+      "name": "Al-Anbiya'",
+      "translate": "Para Nabi",
+      "id": 21,
+      "type": "Makkiyah",
+      "juz_id": 17
+    },
+    {
+      "id": 22,
+      "type": "Madaniyah",
+      "name": "Al-Hajj",
+      "translate": "Haji",
+      "verse_count": 78,
+      "juz_id": 17
+    },
+    {
+      "id": 23,
+      "verse_count": 118,
+      "name": "Al-Mu'minun",
+      "translate": "Orang-Orang Mukmin",
+      "type": "Makkiyah",
+      "juz_id": 18
+    },
+    {
+      "id": 24,
+      "verse_count": 64,
+      "type": "Madaniyah",
+      "name": "An-Nur",
+      "translate": "Cahaya",
+      "juz_id": 18
+    },
+    {
+      "verse_count": 77,
+      "type": "Makkiyah",
+      "id": 25,
+      "name": "Al-Furqan",
+      "translate": "Pembeda",
+      "juz_id": 18
+    },
+    {
+      "name": "Asy-Syu'ara'",
+      "translate": "Para Penyair",
+      "verse_count": 227,
+      "type": "Makkiyah",
+      "id": 26,
+      "juz_id": 19
+    },
+    {
+      "name": "An-Naml",
+      "translate": "Semut-Semut",
+      "verse_count": 93,
+      "id": 27,
+      "type": "Makkiyah",
+      "juz_id": 19
+    },
+    {
+      "verse_count": 88,
+      "name": "Al-Qashash",
+      "translate": "Kisah-Kisah",
+      "id": 28,
+      "type": "Makkiyah",
+      "juz_id": 20
+    },
+    {
+      "name": "Al-'Ankabut",
+      "translate": "Laba-Laba",
+      "verse_count": 69,
+      "type": "Makkiyah",
+      "id": 29,
+      "juz_id": 20
+    },
+    {
+      "type": "Makkiyah",
+      "id": 30,
+      "name": "Ar-Rum",
+      "translate": "Romawi",
+      "verse_count": 60,
+      "juz_id": 21
+    },
+    {
+      "verse_count": 34,
+      "id": 31,
+      "name": "Luqman",
+      "translate": "Luqman",
+      "type": "Makkiyah",
+      "juz_id": 21
+    },
+    {
+      "verse_count": 30,
+      "type": "Makkiyah",
+      "id": 32,
+      "name": "As-Sajdah",
+      "translate": "Sajdah",
+      "juz_id": 21
+    },
+    {
+      "verse_count": 73,
+      "type": "Madaniyah",
+      "id": 33,
+      "name": "Al-Ahzab",
+      "translate": "Golongan Yang Bersekutu",
+      "juz_id": 21
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 54,
+      "name": "Saba'",
+      "translate": "Saba'",
+      "id": 34,
+      "juz_id": 22
+    },
+    {
+      "id": 35,
+      "name": "Fathir",
+      "translate": "Maha Pencipta",
+      "verse_count": 45,
+      "type": "Makkiyah",
+      "juz_id": 22
+    },
+    {
+      "verse_count": 83,
+      "id": 36,
+      "type": "Makkiyah",
+      "name": "Yasin",
+      "translate": "Yasin",
+      "juz_id": 22
+    },
+    {
+      "id": 37,
+      "verse_count": 182,
+      "name": "Ash-Shaffat",
+      "translate": "Barisan-Barisan",
+      "type": "Makkiyah",
+      "juz_id": 23
+    },
+    {
+      "name": "Shad",
+      "translate": "Shad",
+      "verse_count": 88,
+      "type": "Makkiyah",
+      "id": 38,
+      "juz_id": 23
+    },
+    {
+      "name": "Az-Zumar",
+      "translate": "Rombongan",
+      "type": "Makkiyah",
+      "id": 39,
+      "verse_count": 75,
+      "juz_id": 23
+    },
+    {
+      "id": 40,
+      "verse_count": 85,
+      "type": "Makkiyah",
+      "name": "Ghafir",
+      "translate": "Maha Pengampun",
+      "juz_id": 24
+    },
+    {
+      "name": "Fushshilat",
+      "translate": "Yang Dijelaskan",
+      "id": 41,
+      "verse_count": 54,
+      "type": "Makkiyah",
+      "juz_id": 24
+    },
+    {
+      "id": 42,
+      "type": "Makkiyah",
+      "name": "Asy-Syura",
+      "translate": "Musyawarah",
+      "verse_count": 53,
+      "juz_id": 25
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 89,
+      "id": 43,
+      "name": "Az-Zukhruf",
+      "translate": "Perhiasan",
+      "juz_id": 25
+    },
+    {
+      "name": "Ad-Dukhan",
+      "translate": "Kabut",
+      "type": "Makkiyah",
+      "id": 44,
+      "verse_count": 59,
+      "juz_id": 25
+    },
+    {
+      "verse_count": 37,
+      "id": 45,
+      "name": "Al-Jatsiyah",
+      "translate": "Berlutut",
+      "type": "Makkiyah",
+      "juz_id": 25
+    },
+    {
+      "name": "Al-Ahqaf",
+      "translate": "Bukit Pasir",
+      "type": "Makkiyah",
+      "verse_count": 35,
+      "id": 46,
+      "juz_id": 26
+    },
+    {
+      "name": "Muhammad",
+      "translate": "Muhammad",
+      "verse_count": 38,
+      "type": "Madaniyah",
+      "id": 47,
+      "juz_id": 26
+    },
+    {
+      "verse_count": 29,
+      "id": 48,
+      "name": "Al-Fath",
+      "translate": "Kemenangan",
+      "type": "Madaniyah",
+      "juz_id": 26
+    },
+    {
+      "name": "Al-Hujurat",
+      "translate": "Kamar-Kamar",
+      "type": "Madaniyah",
+      "verse_count": 18,
+      "id": 49,
+      "juz_id": 26
+    },
+    {
+      "name": "Qaf",
+      "translate": "Qaf",
+      "type": "Makkiyah",
+      "verse_count": 45,
+      "id": 50,
+      "juz_id": 26
+    },
+    {
+      "name": "Adz-Dzariyat",
+      "translate": "Angin yang Menerbangkan",
+      "verse_count": 60,
+      "id": 51,
+      "type": "Makkiyah",
+      "juz_id": 26
+    },
+    {
+      "type": "Makkiyah",
+      "name": "At-Thur",
+      "translate": "Bukit Tursina",
+      "verse_count": 49,
+      "id": 52,
+      "juz_id": 27
+    },
+    {
+      "verse_count": 62,
+      "type": "Makkiyah",
+      "id": 53,
+      "name": "An-Najm",
+      "translate": "Bintang",
+      "juz_id": 27
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 55,
+      "name": "Al-Qamar",
+      "translate": "Bulan",
+      "id": 54,
+      "juz_id": 27
+    },
+    {
+      "verse_count": 78,
+      "name": "Ar-Rahman",
+      "translate": "Maha Pengasih",
+      "id": 55,
+      "type": "Madaniyah",
+      "juz_id": 27
+    },
+    {
+      "id": 56,
+      "name": "Al-Waqi'ah",
+      "translate": "Hari Kiamat",
+      "verse_count": 96,
+      "type": "Makkiyah",
+      "juz_id": 27
+    },
+    {
+      "id": 57,
+      "type": "Madaniyah",
+      "verse_count": 29,
+      "name": "Al-Hadid",
+      "translate": "Besi",
+      "juz_id": 27
+    },
+    {
+      "id": 58,
+      "verse_count": 22,
+      "name": "Al-Mujadilah",
+      "translate": "Perempuan Penggugat",
+      "type": "Madaniyah",
+      "juz_id": 28
+    },
+    {
+      "id": 59,
+      "type": "Madaniyah",
+      "name": "Al-Hasyr",
+      "translate": "Pengusiran",
+      "verse_count": 24,
+      "juz_id": 28
+    },
+    {
+      "verse_count": 13,
+      "name": "Al-Mumtahanah",
+      "translate": "Wanita Yang Diuji",
+      "id": 60,
+      "type": "Madaniyah",
+      "juz_id": 28
+    },
+    {
+      "id": 61,
+      "name": "Ash-Shaff",
+      "translate": "Barisan",
+      "type": "Madaniyah",
+      "verse_count": 14,
+      "juz_id": 28
+    },
+    {
+      "name": "Al-Jumu'ah",
+      "translate": "Jumat",
+      "id": 62,
+      "type": "Madaniyah",
+      "verse_count": 11,
+      "juz_id": 28
+    },
+    {
+      "name": "Al-Munafiqun",
+      "translate": "Orang-Orang Munafik",
+      "verse_count": 11,
+      "id": 63,
+      "type": "Madaniyah",
+      "juz_id": 28
+    },
+    {
+      "type": "Madaniyah",
+      "id": 64,
+      "verse_count": 18,
+      "name": "At-Taghabun",
+      "translate": "Pengungkapan Kesalahan",
+      "juz_id": 28
+    },
+    {
+      "id": 65,
+      "verse_count": 12,
+      "type": "Madaniyah",
+      "name": "At-Thalaq",
+      "translate": "Talak",
+      "juz_id": 28
+    },
+    {
+      "id": 66,
+      "type": "Madaniyah",
+      "name": "At-Tahrim",
+      "translate": "Pengharaman",
+      "verse_count": 12,
+      "juz_id": 28
+    },
+    {
+      "id": 67,
+      "type": "Makkiyah",
+      "verse_count": 30,
+      "name": "Al-Mulk",
+      "translate": "Kerajaan",
+      "juz_id": 29
+    },
+    {
+      "id": 68,
+      "name": "Al-Qalam",
+      "translate": "Pena",
+      "verse_count": 52,
+      "type": "Makkiyah",
+      "juz_id": 29
+    },
+    {
+      "id": 69,
+      "name": "Al-Haqqah",
+      "translate": "Hari Kiamat",
+      "type": "Makkiyah",
+      "verse_count": 52,
+      "juz_id": 29
+    },
+    {
+      "verse_count": 44,
+      "id": 70,
+      "name": "Al-Ma'arij",
+      "translate": "Tempat Naik",
+      "type": "Makkiyah",
+      "juz_id": 29
+    },
+    {
+      "name": "Nuh",
+      "translate": "Nuh",
+      "type": "Makkiyah",
+      "verse_count": 28,
+      "id": 71,
+      "juz_id": 29
+    },
+    {
+      "id": 72,
+      "name": "Al-Jinn",
+      "translate": "Jin",
+      "verse_count": 28,
+      "type": "Makkiyah",
+      "juz_id": 29
+    },
+    {
+      "verse_count": 20,
+      "type": "Makkiyah",
+      "name": "Al-Muzzammil",
+      "translate": "Orang Yang Berselimut",
+      "id": 73,
+      "juz_id": 29
+    },
+    {
+      "name": "Al-Muddatstsir",
+      "translate": "Orang Yang Berkemul",
+      "type": "Makkiyah",
+      "id": 74,
+      "verse_count": 56,
+      "juz_id": 29
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 40,
+      "id": 75,
+      "name": "Al-Qiyamah",
+      "translate": "Hari Kiamat",
+      "juz_id": 29
+    },
+    {
+      "verse_count": 31,
+      "id": 76,
+      "name": "Al-Insan",
+      "translate": "Manusia",
+      "type": "Madaniyah",
+      "juz_id": 29
+    },
+    {
+      "type": "Makkiyah",
+      "name": "Al-Mursalat",
+      "translate": "Malaikat Yang Diutus",
+      "verse_count": 50,
+      "id": 77,
+      "juz_id": 29
+    },
+    {
+      "name": "An-Naba'",
+      "type": "Makkiyah",
+      "translate": "Berita Besar",
+      "verse_count": 40,
+      "id": 78,
+      "juz_id": 30
+    },
+    {
+      "id": 79,
+      "verse_count": 46,
+      "name": "An-Nazi'at",
+      "translate": "Malaikat Yang Mencabut",
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 42,
+      "name": "'Abasa",
+      "translate": "Bermuka Masam",
+      "id": 80,
+      "juz_id": 30
+    },
+    {
+      "id": 81,
+      "type": "Makkiyah",
+      "verse_count": 29,
+      "name": "At-Takwir",
+      "translate": "Penggulungan",
+      "juz_id": 30
+    },
+    {
+      "type": "Makkiyah",
+      "name": "Al-Infithar",
+      "translate": "Terbelah",
+      "verse_count": 19,
+      "id": 82,
+      "juz_id": 30
+    },
+    {
+      "id": 83,
+      "type": "Makkiyah",
+      "name": "Al-Muthaffifin",
+      "translate": "Orang-Orang Curang",
+      "verse_count": 36,
+      "juz_id": 30
+    },
+    {
+      "id": 84,
+      "type": "Makkiyah",
+      "name": "Al-Insyiqaq",
+      "translate": "Terbelah",
+      "verse_count": 25,
+      "juz_id": 30
+    },
+    {
+      "name": "Al-Buruj",
+      "translate": "Gugusan Bintang",
+      "verse_count": 22,
+      "id": 85,
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "id": 86,
+      "verse_count": 17,
+      "type": "Makkiyah",
+      "name": "At-Thariq",
+      "translate": "Yang Datang Di Malam Hari",
+      "juz_id": 30
+    },
+    {
+      "name": "Al-A'la",
+      "translate": "Maha Tinggi",
+      "verse_count": 19,
+      "id": 87,
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "verse_count": 26,
+      "id": 88,
+      "type": "Makkiyah",
+      "name": "Al-Ghasyiyah",
+      "translate": "Hari Kiamat",
+      "juz_id": 30
+    },
+    {
+      "type": "Makkiyah",
+      "name": "Al-Fajr",
+      "translate": "Fajar",
+      "id": 89,
+      "verse_count": 30,
+      "juz_id": 30
+    },
+    {
+      "name": "Al-Balad",
+      "translate": "Negeri",
+      "id": 90,
+      "verse_count": 20,
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "verse_count": 15,
+      "type": "Makkiyah",
+      "name": "Asy-Syams",
+      "translate": "Matahari",
+      "id": 91,
+      "juz_id": 30
+    },
+    {
+      "verse_count": 21,
+      "type": "Makkiyah",
+      "name": "Al-Lail",
+      "translate": "Malam",
+      "id": 92,
+      "juz_id": 30
+    },
+    {
+      "type": "Makkiyah",
+      "name": "Adh-Dhuha",
+      "translate": "Dhuha",
+      "id": 93,
+      "verse_count": 11,
+      "juz_id": 30
+    },
+    {
+      "name": "Al-Insyirah",
+      "translate": "Lapang",
+      "verse_count": 8,
+      "id": 94,
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "id": 95,
+      "type": "Makkiyah",
+      "name": "At-Tin",
+      "translate": "Buah Tin",
+      "verse_count": 8,
+      "juz_id": 30
+    },
+    {
+      "id": 96,
+      "verse_count": 19,
+      "type": "Makkiyah",
+      "name": "Al-'Alaq",
+      "translate": "Segumpal Darah",
+      "juz_id": 30
+    },
+    {
+      "name": "Al-Qadr",
+      "translate": "Kemuliaan",
+      "verse_count": 5,
+      "type": "Makkiyah",
+      "id": 97,
+      "juz_id": 30
+    },
+    {
+      "verse_count": 8,
+      "type": "Madaniyah",
+      "id": 98,
+      "name": "Al-Bayyinah",
+      "translate": "Bukti Nyata",
+      "juz_id": 30
+    },
+    {
+      "name": "Az-Zalzalah",
+      "translate": "Guncangan",
+      "verse_count": 8,
+      "type": "Madaniyah",
+      "id": 99,
+      "juz_id": 30
+    },
+    {
+      "type": "Makkiyah",
+      "name": "Al-'Adiyat",
+      "translate": "Kuda Yang Berlari Kencang",
+      "id": 100,
+      "verse_count": 11,
+      "juz_id": 30
+    },
+    {
+      "verse_count": 11,
+      "type": "Makkiyah",
+      "id": 101,
+      "name": "Al-Qari'ah",
+      "translate": "Hari Kiamat",
+      "juz_id": 30
+    },
+    {
+      "name": "At-Takatsur",
+      "translate": "Bermegah-Megahan",
+      "id": 102,
+      "type": "Makkiyah",
+      "verse_count": 8,
+      "juz_id": 30
+    },
+    {
+      "verse_count": 3,
+      "name": "Al-'Ashr",
+      "translate": "Asar",
+      "id": 103,
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "id": 104,
+      "type": "Makkiyah",
+      "verse_count": 9,
+      "name": "Al-Humazah",
+      "translate": "Pengumpat",
+      "juz_id": 30
+    },
+    {
+      "id": 105,
+      "type": "Makkiyah",
+      "name": "Al-Fil",
+      "translate": "Gajah",
+      "verse_count": 5,
+      "juz_id": 30
+    },
+    {
+      "id": 106,
+      "name": "Quraisy",
+      "translate": "Quraisy",
+      "type": "Makkiyah",
+      "verse_count": 4,
+      "juz_id": 30
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 7,
+      "id": 107,
+      "name": "Al-Ma'un",
+      "translate": "Barang Yang Berguna",
+      "juz_id": 30
+    },
+    {
+      "verse_count": 3,
+      "name": "Al-Kautsar",
+      "translate": "Pemberian Yang Banyak",
+      "id": 108,
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "verse_count": 6,
+      "id": 109,
+      "name": "Al-Kafirun",
+      "translate": "Orang-Orang Kafir",
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "type": "Madaniyah",
+      "name": "An-Nashr",
+      "translate": "Pertolongan",
+      "id": 110,
+      "verse_count": 3,
+      "juz_id": 30
+    },
+    {
+      "id": 111,
+      "verse_count": 5,
+      "name": "Al-Lahab",
+      "translate": "Api Yang Bergejolak",
+      "type": "Makkiyah",
+      "juz_id": 30
+    },
+    {
+      "id": 112,
+      "type": "Makkiyah",
+      "verse_count": 4,
+      "name": "Al-Ikhlash",
+      "translate": "Ikhlas",
+      "juz_id": 30
+    },
+    {
+      "type": "Makkiyah",
+      "verse_count": 5,
+      "name": "Al-Falaq",
+      "translate": "Subuh",
+      "id": 113,
+      "juz_id": 30
+    },
+    {
+      "verse_count": 6,
+      "id": 114,
+      "name": "An-Nas",
+      "translate": "Manusia",
+      "type": "Makkiyah",
+      "juz_id": 30
+    }
+  ]

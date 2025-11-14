@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "arabic": "اَلتَّوَسُّلُ",
+      "latin": "Tawassul"
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "arabic": "سُوْرَةُ الْوَاقِعَةِ",
+      "latin": "Surat Al-Waqi'ah"
+    }
+  }, 
+  {
+    "id": 4,
+    "title": {
+      "arabic": "رَاتِبُ الْحَدَّادِ",
+      "latin": "Ratib Al-Haddad"
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "arabic": "مَنْظُوْمَاتُ الْأَسْمَاءِ الْحُسْنٰى",
+      "latin": "Mandhumat Asmaul Husna"
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "arabic": "سُوْرَةُ يٰسٓ",
+      "latin": "Surat Yasin"
+    }
+  }, 
+  {
+    "id": 8,
+    "title": {
+      "arabic": "التَهْلِيْلُ",
+      "latin": "Tahlil"
+    }
+  }, 
+  {
+    "id": 10,
+    "title": {
+      "arabic": "يَا اَرْحَمَ الرَّاحِمِيْنَ",
+      "latin": "Ya Arhamar Rahimin"
+    }
+  },
+  {
+    "id": 11,
+    "title": {
+      "arabic": "عِبَادَ اللّٰهِ",
+      "latin": "Ibadallah"
+    }
+  },
+  {
+    "id": 12,
+    "title": {
+      "arabic": "رَبِّ اشْرَحْ لِيْ",
+      "latin": "Rabbisyrahli"
+    }
+  },
+  {
+    "id": 13,
+    "title": {
+      "arabic": "اَلْأَسْمَاءُ الْحُسْنٰى",
+      "latin": "Al-Asmaul Husna"
+    }
+  },
+  {
+    "id": 14,
+    "title": {
+      "arabic": "صَلَوَات نَارِيَة",
+      "latin": "Shalawat Nariyah"
+    }
+  },
+  {
+    "id": 15,
+    "title": {
+      "arabic": "صَلَوَات مُنْجِيَات",
+      "latin": "Shalawat Munjiyat"
+    }
+  },
+  {
+    "id": 16,
+    "title": {
+      "arabic": "كَلَامٌ قَدِيْمٌ",
+      "latin": "Kalam Qadim"
+    }
+  },
+  {
+    "id": 17,
+    "title": {
+      "arabic": "اَلْإِعْتِرَاف",
+      "latin": "Al-I'tiraf"
+    }
+  },
+  {
+    "id": 18,
+    "title": {
+      "arabic": "اِشْفَعْ لَنَا",
+      "latin": "Isyfa' Lana"
+    }
+  },
+  {
+    "id": 19,
+    "title": {
+      "arabic": "صَلَوَات كُبْرٰى",
+      "latin": "Shalawat Kubra"
+    }
+  },
+  {
+    "id": 20,
+    "title": {
+      "arabic": "صَلَوَات الفَاتِح",
+      "latin": "Shalawat Al-Fatih"
+    }
+  },
+  {
+    "id": 21,
+    "title": {
+      "arabic": "صَلَوَات طِبِّيَّة",
+      "latin": "Shalawat Tibbiyah"
+    }
+  },
+  {
+    "id": 22,
+    "title": {
+      "arabic": "صَلَوَات عَظِيْمِيَّة",
+      "latin": "Shalawat Azhimiyah"
+    }
+  }, 
+  {
+    "id": 24,
+    "title": {
+      "arabic": "سُوْرَةُ السَّجَدَةِ",
+      "latin": "Surat As-Sajdah"
+    }
+  },
+  {
+    "id": 25,
+    "title": {
+      "arabic": "سُوْرَةُ الدُّخَانِ",
+      "latin": "Surat Ad-Dukhan"
+    }
+  },
+  {
+    "id": 26,
+    "title": {
+      "arabic": "سُوْرَةُ الْمُلْكِ",
+      "latin": "Surat Al-Mulk"
+    }
+  },
+  {
+    "id": 27,
+    "title": {
+      "arabic": "سُوْرَةُ الْجِنِّ",
+      "latin": "Surat Al-Jinn"
+    }
+  }, 
+  {
+    "id": 29,
+    "title": {
+      "arabic": "اَلصَّلَوَاتُ قَبْلَ الصَّلَاةِ",
+      "latin": "Shalawat Sebelum Shalat"
+    }
+  },
+  {
+    "id": 30,
+    "title": {
+      "arabic": "اَلْإِقَامَةُ وَإِجَابَتُهَا",
+      "latin": "Iqamah dan Jawabannya"
+    }
+  },
+  {
+    "id": 31,
+    "title": {
+      "arabic": "اَلذِّكْرُ بَعْدَ الصَّلَاةِ السِّرِّيَّةِ",
+      "latin": "Dzikir Setelah Shalat Sirriyah"
+    }
+  },
+  {
+    "id": 32,
+    "title": {
+      "arabic": "اَلذِّكْرُ بَعْدَ الصَّلَاةِ الْجَهْرِيَّةِ",
+      "latin": "Dzikir Setelah Shalat Jahriyah"
+    }
+  }, 
+  {
+    "id": 34,
+    "title": {
+      "arabic": "اَلذِّكْرُ بَعْدَ صَلَاةِ الضُّحٰى",
+      "latin": "Dzikir Setelah Shalat Dhuha"
+    }
+  },    
+  {
+    "id": 39,
+    "title": {
+      "arabic": "اَوَّل نِيَةْ",
+      "latin": "Awal Niat"
+    }
+  },
+  {
+    "id": 40,
+    "title": {
+      "arabic": "اَلْإِسْتِغَاثَةُ",
+      "latin": "Istighatsah"
+    }
+  },
+  {
+    "id": 41,
+    "title": {
+      "arabic": "لَاݤُو مَارٓسْ فَسَنْتِرِيْن",
+      "latin": "Lagu Mars Pesantren"
+    }
+  },
+  {
+    "id": 42,
+    "title": {
+      "arabic": "اَلتَّوَسُّلُ بِالنَّظْمِ",
+      "latin": "Tawassul Bin Nadham"
+    }
+  },
+  {
+    "id": 43,
+    "title": {
+      "arabic": "عَقِيْدَةُ الْعَوَامِ",
+      "latin": "Aqidatul Awam"
+    }
+  },
+  {
+    "id": 44,
+    "title": {
+      "arabic": "اَلشِّعْرُ الْإِسْلَامِيِّ",
+      "latin": "Ala La Tanalul Ilma"
+    }
+  },
+  {
+    "id": 45,
+    "title": {
+      "arabic": "قَصِيْدَةُ الْبُرْدَةِ",
+      "latin": "Qasidah Burdah"
+    }
+  }, 
+  {
+    "id": 47,
+    "title": {
+      "arabic": "حِزْبُ الْبَدْرِ",
+      "latin": "Hizb Badar"
+    }
+  },
+  {
+    "id": 48,
+    "title": {
+      "arabic": "مَوْلِدُ بَرْزَنْجِيِّ",
+      "latin": "Maulid Barzanji"
+    }
+  },
+  {
+    "id": 49,
+    "title": {
+      "arabic": "مَوْلِدُ النَّبِيِّ ﷺ",
+      "latin": "Maulid Nabi"
+    }
+  },
+  {
+    "id": 50,
+    "title": {
+      "arabic": "اُتَوِىْ لِمُبْتَدٍ",
+      "latin": "Utawi"
+    }
+  },
+  {
+    "id": 51,
+    "title": {
+      "arabic": "اَلتَّرْخِيْمُ",
+      "latin": "Tarhim"
+    }
+  },
+  {
+    "id": 52,
+    "title": {
+      "arabic": "سُوْرَةُ الْكَهْفِ",
+      "latin": "Surat Al-Kahf"
+    }
+  },
+  {
+    "id": 53,
+    "title": {
+      "arabic": "تَلْقِيْن مَيِّتْ",
+      "latin": "Talqin Mayyit"
+    }
+  },
+  {
+    "id": 54,
+    "title": {
+      "arabic": "سُوْرَةُ الرَّحْمٰن",
+      "latin": "Surat Ar-Rahman"
+    }
+  },
+  {
+    "id": 55,
+    "title": {
+      "arabic": "طَلَعَ الْبَدْرُ",
+      "latin": "Tala'al Badru"
+    }
+  },
+  {
+    "id": 56,
+    "title": {
+      "arabic": "صَلَوَاتُ الْعَجَمِ",
+      "latin": "Shalawatul Ajam"
+    }
+  },
+  {
+    "id": 57,
+    "title": {
+      "arabic": "خُطْبَةُ النِّكَاحِ",
+      "latin": "Khutbah Nikah"
+    }
+  },
+  {
+    "id": 58,
+    "title": {
+      "arabic": "إيْجَابُ قَبُوْلِ عَقْدِ النِّكَاحِ",
+      "latin": "Ijabah Qabul Nikah"
+    }
+  }, 
+  {
+    "id": 60,
+    "title": {
+      "arabic": "بِلَالُ خُطْبَةِ الْجُمْعَةِ",
+      "latin": "Bilal Khutbah Jumat"
+    }
+  },
+  {
+    "id": 61,
+    "title": {
+      "arabic": "بِلَالُ صَلَاةِ التَّرَاوِيْحِ",
+      "latin": "Bilal Shalat Tarawih"
+    }
+  },
+  {
+    "id": 62,
+    "title": {
+      "arabic": "لَفْظُ تَكْبِيْرِ لِلْعِيْدَيْنِ",
+      "latin": "Lafadz Takbir Aidain"
+    }
+  },
+  {
+    "id": 63,
+    "title": {
+      "arabic": "بِلَالُ صَلَاةِ لِلْعِيْدَيْنِ",
+      "latin": "Bilal Shalat Aidain"
+    }
+  },
+  {
+    "id": 64,
+    "title": {
+      "arabic": "بِلَالُ خُطْبَةِ لِلْعِيْدَيْنِ",
+      "latin": "Bilal Khutbah Aidain"
+    }
+  }
+]

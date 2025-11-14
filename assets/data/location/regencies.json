@@ -1,0 +1,4892 @@
+[
+  {
+    "id": 1,
+    "name": "Kab. Aceh Barat Daya",
+    "province_id": 11,
+    "latitude": 3.75326,
+    "longitude": 96.82924,
+    "altitude": 34,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 2,
+    "name": "Kab. Aceh Barat",
+    "province_id": 11,
+    "latitude": 4.23975,
+    "longitude": 96.0016,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 3,
+    "name": "Kab. Aceh Besar",
+    "province_id": 11,
+    "latitude": 5.39296,
+    "longitude": 95.51281,
+    "altitude": 37,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 4,
+    "name": "Kab. Aceh Jaya",
+    "province_id": 11,
+    "latitude": 4.81312,
+    "longitude": 95.45973,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 5,
+    "name": "Kab. Aceh Selatan",
+    "province_id": 11,
+    "latitude": 3.43197,
+    "longitude": 97.07593,
+    "altitude": 69,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 6,
+    "name": "Kab. Aceh Singkil",
+    "province_id": 11,
+    "latitude": 2.35312,
+    "longitude": 97.89945,
+    "altitude": 22,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 7,
+    "name": "Kab. Aceh Tamiang",
+    "province_id": 11,
+    "latitude": 4.28804,
+    "longitude": 98.05212,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 8,
+    "name": "Kab. Aceh Tengah",
+    "province_id": 11,
+    "latitude": 4.50357,
+    "longitude": 96.86065,
+    "altitude": 1467,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 9,
+    "name": "Kab. Aceh Tenggara",
+    "province_id": 11,
+    "latitude": 3.32754,
+    "longitude": 97.94437,
+    "altitude": 248,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 10,
+    "name": "Kab. Aceh Timur",
+    "province_id": 11,
+    "latitude": 4.88575,
+    "longitude": 97.834,
+    "altitude": 7,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 11,
+    "name": "Kab. Aceh Utara",
+    "province_id": 11,
+    "latitude": 5.10628,
+    "longitude": 97.27617,
+    "altitude": 3,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 12,
+    "name": "Kab. Agam",
+    "province_id": 13,
+    "latitude": -0.2478,
+    "longitude": 100.18926,
+    "altitude": 468,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 13,
+    "name": "Kab. Alor",
+    "province_id": 53,
+    "latitude": -8.217,
+    "longitude": 124.53158,
+    "altitude": 19,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 14,
+    "name": "Kota Ambon",
+    "province_id": 81,
+    "latitude": -3.70218,
+    "longitude": 128.18734,
+    "altitude": 65,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 15,
+    "name": "Kab. Asahan",
+    "province_id": 12,
+    "latitude": 2.98124,
+    "longitude": 99.62225,
+    "altitude": 18,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 16,
+    "name": "Kab. Asmat",
+    "province_id": 94,
+    "latitude": -5.77011,
+    "longitude": 138.58196,
+    "altitude": 14,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 17,
+    "name": "Kab. Badung",
+    "province_id": 51,
+    "latitude": -8.58019,
+    "longitude": 115.18122,
+    "altitude": 102,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 18,
+    "name": "Kab. Balangan",
+    "province_id": 63,
+    "latitude": -2.32098,
+    "longitude": 115.63735,
+    "altitude": 74,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 19,
+    "name": "Kota Balikpapan",
+    "province_id": 64,
+    "latitude": -1.1589,
+    "longitude": 116.86834,
+    "altitude": 26,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 20,
+    "name": "Kota Banda Aceh",
+    "province_id": 11,
+    "latitude": 5.55464,
+    "longitude": 95.32094,
+    "altitude": 7,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 21,
+    "name": "Kota Bandar Lampung",
+    "province_id": 18,
+    "latitude": -5.42239,
+    "longitude": 105.25997,
+    "altitude": 93,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 22,
+    "name": "Kab. Bandung Barat",
+    "province_id": 32,
+    "latitude": -6.86265,
+    "longitude": 107.50231,
+    "altitude": 687,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 23,
+    "name": "Kab. Bandung",
+    "province_id": 32,
+    "latitude": -6.91391,
+    "longitude": 107.61029,
+    "altitude": 714,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 24,
+    "name": "Kab. Banggai Kepulauan",
+    "province_id": 72,
+    "latitude": -1.36708,
+    "longitude": 123.00323,
+    "altitude": 627,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 25,
+    "name": "Kab. Banggai Laut",
+    "province_id": 72,
+    "latitude": -0.83262,
+    "longitude": 122.87154,
+    "altitude": 610,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 26,
+    "name": "Kab. Banggai",
+    "province_id": 72,
+    "latitude": -0.83262,
+    "longitude": 122.87154,
+    "altitude": 610,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 27,
+    "name": "Kab. Bangka Barat",
+    "province_id": 19,
+    "latitude": -2.05205,
+    "longitude": 105.21071,
+    "altitude": 28,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 28,
+    "name": "Kab. Bangka Selatan",
+    "province_id": 19,
+    "latitude": -2.75275,
+    "longitude": 106.29509,
+    "altitude": 28,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 29,
+    "name": "Kab. Bangka Tengah",
+    "province_id": 19,
+    "latitude": -2.32695,
+    "longitude": 106.07483,
+    "altitude": 38,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 30,
+    "name": "Kab. Bangka",
+    "province_id": 19,
+    "latitude": -1.90355,
+    "longitude": 105.92118,
+    "altitude": 31,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 31,
+    "name": "Kab. Bangkalan",
+    "province_id": 35,
+    "latitude": -7.03382,
+    "longitude": 112.74409,
+    "altitude": 15,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 32,
+    "name": "Kab. Bangli",
+    "province_id": 51,
+    "latitude": -8.30525,
+    "longitude": 115.36012,
+    "altitude": 1147,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 33,
+    "name": "Kota Banjar",
+    "province_id": 32,
+    "latitude": -7.3695,
+    "longitude": 108.53494,
+    "altitude": 40,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 34,
+    "name": "Kota Banjar",
+    "province_id": 32,
+    "latitude": -3.40549,
+    "longitude": 114.84696,
+    "altitude": 8,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 35,
+    "name": "Kota Banjarbaru",
+    "province_id": 63,
+    "latitude": -3.44592,
+    "longitude": 114.80922,
+    "altitude": 25,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 36,
+    "name": "Kota Banjarmasin",
+    "province_id": 63,
+    "latitude": -3.32877,
+    "longitude": 114.59155,
+    "altitude": 7,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 37,
+    "name": "Kab. Banjarnegara",
+    "province_id": 33,
+    "latitude": -7.39978,
+    "longitude": 109.68112,
+    "altitude": 276,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 38,
+    "name": "Kab. Bantaeng",
+    "province_id": 73,
+    "latitude": -5.55769,
+    "longitude": 119.97749,
+    "altitude": 1,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 39,
+    "name": "Kab. Bantul",
+    "province_id": 34,
+    "latitude": -7.88675,
+    "longitude": 110.32996,
+    "altitude": 49,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 40,
+    "name": "Kab. Banyuasin",
+    "province_id": 16,
+    "latitude": -2.86838,
+    "longitude": 104.38034,
+    "altitude": 27,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 41,
+    "name": "Kab. Banyumas",
+    "province_id": 33,
+    "latitude": -7.52381,
+    "longitude": 109.29384,
+    "altitude": 12,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 42,
+    "name": "Kab. Banyuwangi",
+    "province_id": 35,
+    "latitude": -8.23647,
+    "longitude": 114.35851,
+    "altitude": 18,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 43,
+    "name": "Kab. Barito Kuala",
+    "province_id": 63,
+    "latitude": -3.27599,
+    "longitude": 114.5927,
+    "altitude": 7,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 44,
+    "name": "Kab. Barito Selatan",
+    "province_id": 62,
+    "latitude": -1.63434,
+    "longitude": 113.181048,
+    "altitude": 64,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 45,
+    "name": "Kab. Barito Timur",
+    "province_id": 62,
+    "latitude": -1.63434,
+    "longitude": 113.181048,
+    "altitude": 64,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 46,
+    "name": "Kab. Barito Utara",
+    "province_id": 62,
+    "latitude": -1.63434,
+    "longitude": 113.181048,
+    "altitude": 64,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 47,
+    "name": "Kab. Barru",
+    "province_id": 73,
+    "latitude": -4.4176,
+    "longitude": 119.61751,
+    "altitude": 9,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 48,
+    "name": "Kota Batam",
+    "province_id": 21,
+    "latitude": 1.08902,
+    "longitude": 104.03422,
+    "altitude": 20,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 49,
+    "name": "Kab. Batang Hari",
+    "province_id": 15,
+    "latitude": -1.67232,
+    "longitude": 103.01484,
+    "altitude": 25,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 50,
+    "name": "Kab. Batang",
+    "province_id": 33,
+    "latitude": -6.90722,
+    "longitude": 109.73081,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 51,
+    "name": "Kab. Batu Bara",
+    "province_id": 12,
+    "latitude": 3.17401,
+    "longitude": 99.41451,
+    "altitude": 44,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 52,
+    "name": "Kota Batu",
+    "province_id": 35,
+    "latitude": -7.86884,
+    "longitude": 112.51974,
+    "altitude": 903,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 53,
+    "name": "Kota Baubau",
+    "province_id": 74,
+    "latitude": -5.46755,
+    "longitude": 122.63811,
+    "altitude": 164,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 54,
+    "name": "Kab. Bekasi",
+    "province_id": 32,
+    "latitude": -6.25669,
+    "longitude": 106.99132,
+    "altitude": 22,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 55,
+    "name": "Kab. Belitung Timur",
+    "province_id": 19,
+    "latitude": -2.87886,
+    "longitude": 108.05279,
+    "altitude": 15,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 56,
+    "name": "Kab. Belitung",
+    "province_id": 19,
+    "latitude": -3.04624,
+    "longitude": 107.76548,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 57,
+    "name": "Kab. Belu",
+    "province_id": 53,
+    "latitude": -9.52146,
+    "longitude": 124.92831,
+    "altitude": 109,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 58,
+    "name": "Kab. Bener Meriah",
+    "province_id": 11,
+    "latitude": 4.85727,
+    "longitude": 96.74416,
+    "altitude": 921,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 59,
+    "name": "Kab. Bengkalis",
+    "province_id": 14,
+    "latitude": 1.45745,
+    "longitude": 102.19467,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 60,
+    "name": "Kab. Bengkayang",
+    "province_id": 61,
+    "latitude": 0.86438,
+    "longitude": 109.5102,
+    "altitude": 76,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 61,
+    "name": "Kab. Bengkulu Selatan",
+    "province_id": 17,
+    "latitude": -4.46808,
+    "longitude": 102.92207,
+    "altitude": 34,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 62,
+    "name": "Kab. Bengkulu Tengah",
+    "province_id": 17,
+    "latitude": -3.73318,
+    "longitude": 102.45048,
+    "altitude": 53,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 63,
+    "name": "Kab. Bengkulu Utara",
+    "province_id": 17,
+    "latitude": -3.37562,
+    "longitude": 101.84096,
+    "altitude": 22,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 64,
+    "name": "Kota Bengkulu",
+    "province_id": 17,
+    "latitude": -3.79116,
+    "longitude": 102.26312,
+    "altitude": 10,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 65,
+    "name": "Kab. Berau",
+    "province_id": 64,
+    "latitude": 1.9298,
+    "longitude": 117.29504,
+    "altitude": 85,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 66,
+    "name": "Kab. Biak Numfor",
+    "province_id": 94,
+    "latitude": -1.16251,
+    "longitude": 136.19852,
+    "altitude": 55,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 67,
+    "name": "Kab. Bima",
+    "province_id": 52,
+    "latitude": -8.45017,
+    "longitude": 118.73304,
+    "altitude": 13,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 68,
+    "name": "Kota Binjai",
+    "province_id": 12,
+    "latitude": 3.60183,
+    "longitude": 98.48199,
+    "altitude": 33,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 69,
+    "name": "Kab. Bintan",
+    "province_id": 21,
+    "latitude": 1.1203,
+    "longitude": 104.43671,
+    "altitude": 16,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 70,
+    "name": "Kab. Bireuen",
+    "province_id": 11,
+    "latitude": 5.18952,
+    "longitude": 96.49175,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 71,
+    "name": "Kota Bitung",
+    "province_id": 71,
+    "latitude": 1.44626,
+    "longitude": 125.12187,
+    "altitude": 36,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 72,
+    "name": "Kab. Blitar",
+    "province_id": 35,
+    "latitude": -8.09897,
+    "longitude": 112.16452,
+    "altitude": 177,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 73,
+    "name": "Kab. Blora",
+    "province_id": 33,
+    "latitude": -6.96975,
+    "longitude": 111.40327,
+    "altitude": 86,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 74,
+    "name": "Kab. Boalemo",
+    "province_id": 75,
+    "latitude": 0.61081,
+    "longitude": 122.49272,
+    "altitude": 165,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 75,
+    "name": "Kab. Bogor",
+    "province_id": 32,
+    "latitude": -6.60016,
+    "longitude": 106.80496,
+    "altitude": 260,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 76,
+    "name": "Kab. Bojonegoro",
+    "province_id": 35,
+    "latitude": -7.16834,
+    "longitude": 111.89217,
+    "altitude": 18,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 77,
+    "name": "Kab. Bolaang Mongondow Selatan",
+    "province_id": 71,
+    "latitude": 0.39741,
+    "longitude": 123.98117,
+    "altitude": 7,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 78,
+    "name": "Kab. Bolaang Mongondow Timur",
+    "province_id": 71,
+    "latitude": 0.68329,
+    "longitude": 124.56359,
+    "altitude": 8,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 79,
+    "name": "Kab. Bolaang Mongondow Utara",
+    "province_id": 71,
+    "latitude": 0.88069,
+    "longitude": 123.46587,
+    "altitude": 9,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 80,
+    "name": "Kab. Bolaang Mongondow",
+    "province_id": 71,
+    "latitude": 0.83398,
+    "longitude": 123.97407,
+    "altitude": 16,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 81,
+    "name": "Kab. Bombana",
+    "province_id": 74,
+    "latitude": -4.69192,
+    "longitude": 121.82261,
+    "altitude": 74,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 82,
+    "name": "Kab. Bondowoso",
+    "province_id": 35,
+    "latitude": -7.90773,
+    "longitude": 113.81266,
+    "altitude": 264,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 83,
+    "name": "Kab. Bone Bolango",
+    "province_id": 75,
+    "latitude": 0.4114,
+    "longitude": 123.17334,
+    "altitude": 147,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 84,
+    "name": "Kab. Bone",
+    "province_id": 73,
+    "latitude": -4.64258,
+    "longitude": 120.01485,
+    "altitude": 94,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 85,
+    "name": "Kota Bontang",
+    "province_id": 64,
+    "latitude": 0.05811,
+    "longitude": 117.4135,
+    "altitude": 40,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 86,
+    "name": "Kab. Boven Digoel",
+    "province_id": 94,
+    "latitude": -6.09944,
+    "longitude": 140.31607,
+    "altitude": 27,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 87,
+    "name": "Kab. Boyolali",
+    "province_id": 33,
+    "latitude": -7.50397,
+    "longitude": 110.5773,
+    "altitude": 529,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 88,
+    "name": "Kab. Brebes",
+    "province_id": 33,
+    "latitude": -6.8766,
+    "longitude": 109.06626,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 89,
+    "name": "Kota Bukittinggi",
+    "province_id": 13,
+    "latitude": -0.30065,
+    "longitude": 100.37362,
+    "altitude": 906,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 90,
+    "name": "Kab. Buleleng",
+    "province_id": 51,
+    "latitude": -8.11591,
+    "longitude": 115.09037,
+    "altitude": 24,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 91,
+    "name": "Kab. Bulukumba",
+    "province_id": 73,
+    "latitude": -5.43225,
+    "longitude": 120.20417,
+    "altitude": 126,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 92,
+    "name": "Kab. Bulungan",
+    "province_id": 65,
+    "latitude": 2.72512,
+    "longitude": 117.40145,
+    "altitude": 120,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 93,
+    "name": "Kab. Bungo",
+    "province_id": 15,
+    "latitude": -1.37869,
+    "longitude": 101.91867,
+    "altitude": 103,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 94,
+    "name": "Kab. Buol",
+    "province_id": 72,
+    "latitude": 1.04202,
+    "longitude": 121.56528,
+    "altitude": 34,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 95,
+    "name": "Kab. Buru Selatan",
+    "province_id": 81,
+    "latitude": -3.51473,
+    "longitude": 126.84862,
+    "altitude": 133,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 96,
+    "name": "Kab. Buru",
+    "province_id": 81,
+    "latitude": -3.2715,
+    "longitude": 127.11846,
+    "altitude": -17,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 97,
+    "name": "Kab. Buton Selatan",
+    "province_id": 74,
+    "latitude": -5.42145,
+    "longitude": 122.93438,
+    "altitude": 46,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 98,
+    "name": "Kab. Buton Tengah",
+    "province_id": 74,
+    "latitude": -5.42145,
+    "longitude": 122.93438,
+    "altitude": 46,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 99,
+    "name": "Kab. Buton Utara",
+    "province_id": 74,
+    "latitude": -4.72151,
+    "longitude": 122.94659,
+    "altitude": 199,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 100,
+    "name": "Kab. Buton",
+    "province_id": 74,
+    "latitude": -5.42145,
+    "longitude": 122.93438,
+    "altitude": 46,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 101,
+    "name": "Kab. Ciamis",
+    "province_id": 32,
+    "latitude": -7.32616,
+    "longitude": 108.35332,
+    "altitude": 207,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 102,
+    "name": "Kab. Cianjur",
+    "province_id": 32,
+    "latitude": -6.8189,
+    "longitude": 107.13055,
+    "altitude": 484,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 103,
+    "name": "Kab. Cilacap",
+    "province_id": 33,
+    "latitude": -7.64646,
+    "longitude": 109.04178,
+    "altitude": 13,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 104,
+    "name": "Kota Cilegon",
+    "province_id": 36,
+    "latitude": -6.02594,
+    "longitude": 106.0468,
+    "altitude": 24,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 105,
+    "name": "Kota Cimahi",
+    "province_id": 32,
+    "latitude": -6.87961,
+    "longitude": 107.54094,
+    "altitude": 752,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 106,
+    "name": "Kab. Cirebon",
+    "province_id": 32,
+    "latitude": -6.71299,
+    "longitude": 108.56604,
+    "altitude": 4,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 107,
+    "name": "Kab. Dairi",
+    "province_id": 12,
+    "latitude": 2.77583,
+    "longitude": 98.48052,
+    "altitude": 1549,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 108,
+    "name": "Kab. Deiyai",
+    "province_id": 94,
+    "latitude": -4.01401,
+    "longitude": 136.33394,
+    "altitude": 1912,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 109,
+    "name": "Kab. Deli Serdang",
+    "province_id": 12,
+    "latitude": 3.55177,
+    "longitude": 98.86554,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 110,
+    "name": "Kab. Demak",
+    "province_id": 33,
+    "latitude": -6.89998,
+    "longitude": 110.6329,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 111,
+    "name": "Kota Denpasar",
+    "province_id": 51,
+    "latitude": -8.67331,
+    "longitude": 115.20333,
+    "altitude": 17,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 112,
+    "name": "Kota Depok",
+    "province_id": 32,
+    "latitude": -6.36095,
+    "longitude": 106.83332,
+    "altitude": 67,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 113,
+    "name": "Kab. Dharmasraya",
+    "province_id": 13,
+    "latitude": -1.10669,
+    "longitude": 101.71126,
+    "altitude": 83,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 114,
+    "name": "Kab. Dogiyai",
+    "province_id": 94,
+    "latitude": -3.94489,
+    "longitude": 135.94584,
+    "altitude": 1568,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 115,
+    "name": "Kab. Dompu",
+    "province_id": 52,
+    "latitude": -8.53669,
+    "longitude": 118.46596,
+    "altitude": 44,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 116,
+    "name": "Kab. Donggala",
+    "province_id": 72,
+    "latitude": 0.48748,
+    "longitude": 120.018,
+    "altitude": 9,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 117,
+    "name": "Kota Dumai",
+    "province_id": 14,
+    "latitude": 1.60527,
+    "longitude": 101.4232,
+    "altitude": 15,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 118,
+    "name": "Kab. Empat Lawang",
+    "province_id": 16,
+    "latitude": -3.75787,
+    "longitude": 102.93602,
+    "altitude": 255,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 119,
+    "name": "Kab. Ende",
+    "province_id": 53,
+    "latitude": -8.79992,
+    "longitude": 121.59005,
+    "altitude": 55,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 120,
+    "name": "Kab. Enrekang",
+    "province_id": 73,
+    "latitude": -3.5283,
+    "longitude": 119.77252,
+    "altitude": 228,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 121,
+    "name": "Kab. Fakfak",
+    "province_id": 91,
+    "latitude": -2.93016,
+    "longitude": 132.29363,
+    "altitude": 65,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 122,
+    "name": "Kab. Flores Timur",
+    "province_id": 53,
+    "latitude": -8.29236,
+    "longitude": 122.92011,
+    "altitude": 252,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 123,
+    "name": "Kab. Garut",
+    "province_id": 32,
+    "latitude": -7.18644,
+    "longitude": 107.88912,
+    "altitude": 739,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 124,
+    "name": "Kab. Gayo Lues",
+    "province_id": 11,
+    "latitude": 3.98106,
+    "longitude": 97.35034,
+    "altitude": 931,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 125,
+    "name": "Kab. Gianyar",
+    "province_id": 51,
+    "latitude": -8.54327,
+    "longitude": 115.32469,
+    "altitude": 127,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 126,
+    "name": "Kab. Gorontalo Utara",
+    "province_id": 75,
+    "latitude": 0.82272,
+    "longitude": 122.91858,
+    "altitude": 47,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 127,
+    "name": "Kab. Gorontalo",
+    "province_id": 75,
+    "latitude": 0.53707,
+    "longitude": 123.06184,
+    "altitude": 19,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 128,
+    "name": "Kab. Gowa",
+    "province_id": 73,
+    "latitude": -5.29394,
+    "longitude": 119.68977,
+    "altitude": 399,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 129,
+    "name": "Kab. Gresik",
+    "province_id": 35,
+    "latitude": -7.16813,
+    "longitude": 112.64538,
+    "altitude": 28,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 130,
+    "name": "Kab. Grobogan",
+    "province_id": 33,
+    "latitude": -7.02328,
+    "longitude": 110.92145,
+    "altitude": 25,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 131,
+    "name": "Kab. Gunung Kidul",
+    "province_id": 34,
+    "latitude": -7.97146,
+    "longitude": 110.59883,
+    "altitude": 177,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 132,
+    "name": "Kab. Gunung Mas",
+    "province_id": 62,
+    "latitude": -1.01271,
+    "longitude": 113.53213,
+    "altitude": 110,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 133,
+    "name": "Kota Gunungsitoli",
+    "province_id": 12,
+    "latitude": 1.28584,
+    "longitude": 97.58381,
+    "altitude": 176,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 134,
+    "name": "Kab. Halmahera Barat",
+    "province_id": 82,
+    "latitude": 0.78059,
+    "longitude": 127.62775,
+    "altitude": 23,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 135,
+    "name": "Kab. Halmahera Selatan",
+    "province_id": 82,
+    "latitude": -0.62786,
+    "longitude": 127.47888,
+    "altitude": 14,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 136,
+    "name": "Kab. Halmahera Tengah",
+    "province_id": 82,
+    "latitude": 0.33439,
+    "longitude": 127.8804,
+    "altitude": 6,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 137,
+    "name": "Kab. Halmahera Timur",
+    "province_id": 82,
+    "latitude": 1.05624,
+    "longitude": 128.27065,
+    "altitude": 195,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 138,
+    "name": "Kab. Halmahera Utara",
+    "province_id": 82,
+    "latitude": 1.51705,
+    "longitude": 127.89911,
+    "altitude": 100,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 139,
+    "name": "Kab. Hulu Sungai Selatan",
+    "province_id": 63,
+    "latitude": -2.78085,
+    "longitude": 115.22983,
+    "altitude": 14,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 140,
+    "name": "Kab. Hulu Sungai Tengah",
+    "province_id": 63,
+    "latitude": -2.61695,
+    "longitude": 115.5125,
+    "altitude": 178,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 141,
+    "name": "Kab. Hulu Sungai Utara",
+    "province_id": 63,
+    "latitude": -2.44898,
+    "longitude": 115.16142,
+    "altitude": 6,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 142,
+    "name": "Kab. Humbang Hasundutan",
+    "province_id": 12,
+    "latitude": 2.29037,
+    "longitude": 98.74139,
+    "altitude": 1399,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 143,
+    "name": "Kab. Indragiri Hilir",
+    "province_id": 14,
+    "latitude": -0.35188,
+    "longitude": 103.11147,
+    "altitude": 4,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 144,
+    "name": "Kab. Indragiri Hulu",
+    "province_id": 14,
+    "latitude": -0.56651,
+    "longitude": 102.39871,
+    "altitude": 20,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 145,
+    "name": "Kab. Indramayu",
+    "province_id": 32,
+    "latitude": -6.34801,
+    "longitude": 108.32969,
+    "altitude": 2,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 146,
+    "name": "Kab. Intan Jaya",
+    "province_id": 94,
+    "latitude": -3.535924,
+    "longitude": 136.744448,
+    "altitude": 2949,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 147,
+    "name": "Kota Jakarta Barat",
+    "province_id": 31,
+    "latitude": -6.18673,
+    "longitude": 106.73971,
+    "altitude": 7,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 148,
+    "name": "Kota Jakarta Pusat",
+    "province_id": 31,
+    "latitude": -6.20008,
+    "longitude": 106.83265,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 149,
+    "name": "Kota Jakarta Selatan",
+    "province_id": 31,
+    "latitude": -6.25374,
+    "longitude": 106.79731,
+    "altitude": 25,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 150,
+    "name": "Kota Jakarta Timur",
+    "province_id": 31,
+    "latitude": -6.22847,
+    "longitude": 106.88543,
+    "altitude": 17,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 151,
+    "name": "Kota Jakarta Utara",
+    "province_id": 31,
+    "latitude": -6.13063,
+    "longitude": 106.89701,
+    "altitude": 3,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 152,
+    "name": "Kota Jambi",
+    "province_id": 15,
+    "latitude": -1.61775,
+    "longitude": 103.59932,
+    "altitude": 26,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 153,
+    "name": "Kab. Jayapura",
+    "province_id": 94,
+    "latitude": -2.56147,
+    "longitude": 140.71111,
+    "altitude": 30,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 154,
+    "name": "Kab. Jayawijaya",
+    "province_id": 94,
+    "latitude": -4.08844,
+    "longitude": 138.94517,
+    "altitude": 1657,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 155,
+    "name": "Kab. Jember",
+    "province_id": 35,
+    "latitude": -8.19678,
+    "longitude": 113.63455,
+    "altitude": 60,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 156,
+    "name": "Kab. Jembrana",
+    "province_id": 51,
+    "latitude": -8.35779,
+    "longitude": 114.6338,
+    "altitude": 17,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 157,
+    "name": "Kab. Jeneponto",
+    "province_id": 73,
+    "latitude": -5.64313,
+    "longitude": 119.7062,
+    "altitude": 40,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 158,
+    "name": "Kab. Jepara",
+    "province_id": 33,
+    "latitude": -6.57541,
+    "longitude": 110.68315,
+    "altitude": 25,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 159,
+    "name": "Kab. Jombang",
+    "province_id": 35,
+    "latitude": -7.54373,
+    "longitude": 112.21767,
+    "altitude": 42,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 160,
+    "name": "Kab. Kaimana",
+    "province_id": 91,
+    "latitude": -3.63145,
+    "longitude": 134.87602,
+    "altitude": 137,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 161,
+    "name": "Kab. Kampar",
+    "province_id": 14,
+    "latitude": 0.3534,
+    "longitude": 101.09992,
+    "altitude": 32,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 162,
+    "name": "Kab. Kapuas Hulu",
+    "province_id": 61,
+    "latitude": 0.81763,
+    "longitude": 112.82859,
+    "altitude": 35,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 163,
+    "name": "Kab. Kapuas",
+    "province_id": 62,
+    "latitude": -1.71093,
+    "longitude": 114.29839,
+    "altitude": 48,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 164,
+    "name": "Kab. Karanganyar",
+    "province_id": 33,
+    "latitude": -7.60855,
+    "longitude": 110.98257,
+    "altitude": 208,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 165,
+    "name": "Kab. Karangasem",
+    "province_id": 51,
+    "latitude": -8.45989,
+    "longitude": 115.62609,
+    "altitude": 42,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 166,
+    "name": "Kab. Karawang",
+    "province_id": 32,
+    "latitude": -6.25205,
+    "longitude": 107.35212,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 167,
+    "name": "Kab. Karimun",
+    "province_id": 21,
+    "latitude": 0.99997,
+    "longitude": 103.43129,
+    "altitude": 17,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 168,
+    "name": "Kab. Karo",
+    "province_id": 12,
+    "latitude": 3.13218,
+    "longitude": 98.5085,
+    "altitude": 1263,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 169,
+    "name": "Kab. Katingan",
+    "province_id": 62,
+    "latitude": -1.11695,
+    "longitude": 112.95713,
+    "altitude": 112,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 170,
+    "name": "Kab. Kaur",
+    "province_id": 17,
+    "latitude": -4.78554,
+    "longitude": 103.33472,
+    "altitude": 16,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 171,
+    "name": "Kab. Kayong Utara",
+    "province_id": 61,
+    "latitude": -1.05619,
+    "longitude": 110.1141,
+    "altitude": 7,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 172,
+    "name": "Kab. Kebumen",
+    "province_id": 33,
+    "latitude": -7.69519,
+    "longitude": 109.68361,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 173,
+    "name": "Kab. Kediri",
+    "province_id": 35,
+    "latitude": -7.82577,
+    "longitude": 112.01068,
+    "altitude": 71,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 174,
+    "name": "Kab. Keerom",
+    "province_id": 94,
+    "latitude": -2.76799,
+    "longitude": 140.8062,
+    "altitude": 48,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 175,
+    "name": "Kab. Kendal",
+    "province_id": 33,
+    "latitude": -6.92165,
+    "longitude": 110.20445,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 176,
+    "name": "Kota Kendari",
+    "province_id": 74,
+    "latitude": -3.97245,
+    "longitude": 122.58526,
+    "altitude": 12,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 177,
+    "name": "Kab. Kepahiang",
+    "province_id": 17,
+    "latitude": -3.64506,
+    "longitude": 102.57785,
+    "altitude": 537,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 178,
+    "name": "Kab. Kepulauan Anambas",
+    "province_id": 21,
+    "latitude": 2.92469,
+    "longitude": 105.74407,
+    "altitude": 112,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 179,
+    "name": "Kab. Kepulauan Aru",
+    "province_id": 81,
+    "latitude": -5.7602,
+    "longitude": 134.23079,
+    "altitude": 4,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 180,
+    "name": "Kab. Kepulauan Mentawai",
+    "province_id": 13,
+    "latitude": -1.38738,
+    "longitude": 98.91553,
+    "altitude": 173,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 181,
+    "name": "Kab. Kepulauan Meranti",
+    "province_id": 14,
+    "latitude": 0.96979,
+    "longitude": 102.71579,
+    "altitude": 1,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 182,
+    "name": "Kab. Kepulauan Sangihe",
+    "province_id": 71,
+    "latitude": 3.55592,
+    "longitude": 125.53994,
+    "altitude": 355,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 183,
+    "name": "Kab. Kepulauan Selayar",
+    "province_id": 73,
+    "latitude": -6.08849,
+    "longitude": 120.49627,
+    "altitude": 104,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 184,
+    "name": "Kab. Kepulauan Seribu",
+    "province_id": 31,
+    "latitude": -5.79667,
+    "longitude": 106.49628,
+    "altitude": -2,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 185,
+    "name": "Kab. Siau Tagulandang Biaro",
+    "province_id": 71,
+    "latitude": 2.74323,
+    "longitude": 125.38018,
+    "altitude": 260,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 186,
+    "name": "Kab. Kepulauan Sula",
+    "province_id": 82,
+    "latitude": -2.06687,
+    "longitude": 125.98177,
+    "altitude": 9,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 187,
+    "name": "Kab. Kepulauan Talaud",
+    "province_id": 71,
+    "latitude": 4.29303,
+    "longitude": 126.85032,
+    "altitude": 221,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 188,
+    "name": "Kab. Kepulauan Yapen",
+    "province_id": 94,
+    "latitude": -1.88466,
+    "longitude": 136.2446,
+    "altitude": 35,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 189,
+    "name": "Kab. Kerinci",
+    "province_id": 15,
+    "latitude": -2.19158,
+    "longitude": 101.61823,
+    "altitude": 829,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 190,
+    "name": "Kab. Ketapang",
+    "province_id": 61,
+    "latitude": -1.59233,
+    "longitude": 110.62701,
+    "altitude": 79,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 191,
+    "name": "Kab. Klaten",
+    "province_id": 33,
+    "latitude": -7.70022,
+    "longitude": 110.60496,
+    "altitude": 161,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 192,
+    "name": "Kab. Klungkung",
+    "province_id": 51,
+    "latitude": -8.5628,
+    "longitude": 115.41915,
+    "altitude": 18,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 193,
+    "name": "Kab. Kolaka Timur",
+    "province_id": 74,
+    "latitude": -4.04052,
+    "longitude": 121.73311,
+    "altitude": 206,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 194,
+    "name": "Kab. Kolaka Utara",
+    "province_id": 74,
+    "latitude": -3.35892,
+    "longitude": 120.94024,
+    "altitude": 38,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 195,
+    "name": "Kab. Kolaka",
+    "province_id": 74,
+    "latitude": -4.04052,
+    "longitude": 121.73311,
+    "altitude": 206,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 196,
+    "name": "Kab. Konawe Kepulauan",
+    "province_id": 74,
+    "latitude": -3.92881,
+    "longitude": 122.10904,
+    "altitude": 34,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 197,
+    "name": "Kab. Konawe Selatan",
+    "province_id": 74,
+    "latitude": -4.27511,
+    "longitude": 122.48789,
+    "altitude": 92,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 198,
+    "name": "Kab. Konawe Utara",
+    "province_id": 74,
+    "latitude": -3.4129,
+    "longitude": 122.0715,
+    "altitude": 10,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 199,
+    "name": "Kab. Konawe",
+    "province_id": 74,
+    "latitude": -3.92881,
+    "longitude": 122.10904,
+    "altitude": 34,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 200,
+    "name": "Kab. Kotabaru",
+    "province_id": 63,
+    "latitude": -2.92,
+    "longitude": 115.77352,
+    "altitude": 98,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 201,
+    "name": "Kota Kotamobagu",
+    "province_id": 71,
+    "latitude": 0.7384,
+    "longitude": 124.31006,
+    "altitude": 241,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 202,
+    "name": "Kab. Kotawaringin Barat",
+    "province_id": 62,
+    "latitude": -2.55274,
+    "longitude": 111.74203,
+    "altitude": 17,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 203,
+    "name": "Kab. Kotawaringin Timur",
+    "province_id": 62,
+    "latitude": -2.05879,
+    "longitude": 112.69952,
+    "altitude": 26,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 204,
+    "name": "Kab. Kuantan Singingi",
+    "province_id": 14,
+    "latitude": -0.51245,
+    "longitude": 101.49859,
+    "altitude": 140,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 205,
+    "name": "Kab. Kubu Raya",
+    "province_id": 61,
+    "latitude": -0.25947,
+    "longitude": 109.51997,
+    "altitude": 9,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 206,
+    "name": "Kab. Kudus",
+    "province_id": 33,
+    "latitude": -6.82424,
+    "longitude": 110.83513,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 207,
+    "name": "Kab. Kulon Progo",
+    "province_id": 34,
+    "latitude": -7.8485,
+    "longitude": 110.16509,
+    "altitude": 32,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 208,
+    "name": "Kab. Kuningan",
+    "province_id": 32,
+    "latitude": -6.97206,
+    "longitude": 108.4862,
+    "altitude": 540,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 209,
+    "name": "Kab. Kupang",
+    "province_id": 53,
+    "latitude": -10.15716,
+    "longitude": 123.65956,
+    "altitude": 66,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 210,
+    "name": "Kab. Kutai Barat",
+    "province_id": 64,
+    "latitude": -0.43882,
+    "longitude": 115.84875,
+    "altitude": 16,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 211,
+    "name": "Kab. Kutai Kartanegara",
+    "province_id": 64,
+    "latitude": -0.35086,
+    "longitude": 116.51211,
+    "altitude": 8,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 212,
+    "name": "Kab. Kutai Timur",
+    "province_id": 64,
+    "latitude": 0.97437,
+    "longitude": 117.06933,
+    "altitude": 138,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 213,
+    "name": "Kab. Labuhan Batu Selatan",
+    "province_id": 12,
+    "latitude": 1.84926,
+    "longitude": 100.16609,
+    "altitude": 55,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 214,
+    "name": "Kab. Labuhan Batu Utara",
+    "province_id": 12,
+    "latitude": 2.39375,
+    "longitude": 99.70166,
+    "altitude": 17,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 215,
+    "name": "Kab. Labuhan Batu",
+    "province_id": 12,
+    "latitude": 2.09132,
+    "longitude": 99.84034,
+    "altitude": 22,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 216,
+    "name": "Kab. Lahat",
+    "province_id": 16,
+    "latitude": -3.76573,
+    "longitude": 103.51157,
+    "altitude": 146,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 217,
+    "name": "Kab. Lamandau",
+    "province_id": 62,
+    "latitude": -1.93182,
+    "longitude": 111.16154,
+    "altitude": 68,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 218,
+    "name": "Kab. Lamongan",
+    "province_id": 35,
+    "latitude": -7.10837,
+    "longitude": 112.39803,
+    "altitude": 7,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 219,
+    "name": "Kab. Lampung Barat",
+    "province_id": 18,
+    "latitude": -5.05192,
+    "longitude": 104.30688,
+    "altitude": 1176,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 220,
+    "name": "Kab. Lampung Selatan",
+    "province_id": 18,
+    "latitude": -5.72207,
+    "longitude": 105.61525,
+    "altitude": 75,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 221,
+    "name": "Kab. Lampung Tengah",
+    "province_id": 18,
+    "latitude": -4.90829,
+    "longitude": 105.21145,
+    "altitude": 40,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 222,
+    "name": "Kab. Lampung Timur",
+    "province_id": 18,
+    "latitude": -5.14226,
+    "longitude": 105.70156,
+    "altitude": 16,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 223,
+    "name": "Kab. Lampung Utara",
+    "province_id": 18,
+    "latitude": -4.83967,
+    "longitude": 104.8822,
+    "altitude": 33,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 224,
+    "name": "Kab. Landak",
+    "province_id": 61,
+    "latitude": 0.50267,
+    "longitude": 109.75943,
+    "altitude": 50,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 225,
+    "name": "Kab. Langkat",
+    "province_id": 12,
+    "latitude": 3.91872,
+    "longitude": 98.39842,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 226,
+    "name": "Kota Langsa",
+    "province_id": 11,
+    "latitude": 4.47222,
+    "longitude": 97.96509,
+    "altitude": 9,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 227,
+    "name": "Kab. Lanny Jaya",
+    "province_id": 94,
+    "latitude": -3.92564,
+    "longitude": 138.45818,
+    "altitude": 2088,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 228,
+    "name": "Kab. Lebak",
+    "province_id": 36,
+    "latitude": -6.34474,
+    "longitude": 106.23506,
+    "altitude": 29,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 229,
+    "name": "Kab. Lebong",
+    "province_id": 17,
+    "latitude": -3.22055,
+    "longitude": 102.33319,
+    "altitude": 615,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 230,
+    "name": "Kab. Lembata",
+    "province_id": 53,
+    "latitude": -8.37187,
+    "longitude": 123.43356,
+    "altitude": 27,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 231,
+    "name": "Kota Lhokseumawe",
+    "province_id": 11,
+    "latitude": 5.19217,
+    "longitude": 97.11698,
+    "altitude": 12,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 232,
+    "name": "Kab. Lima Puluh Kota",
+    "province_id": 13,
+    "latitude": 0.05421,
+    "longitude": 100.75409,
+    "altitude": 104,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 233,
+    "name": "Kab. Lingga",
+    "province_id": 21,
+    "latitude": -0.16691,
+    "longitude": 104.66075,
+    "altitude": 53,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 234,
+    "name": "Kab. Lombok Barat",
+    "province_id": 52,
+    "latitude": -8.48149,
+    "longitude": 116.08998,
+    "altitude": 362,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 235,
+    "name": "Kab. Lombok Tengah",
+    "province_id": 52,
+    "latitude": -8.71241,
+    "longitude": 116.26494,
+    "altitude": 98,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 236,
+    "name": "Kab. Lombok Timur",
+    "province_id": 52,
+    "latitude": -8.52813,
+    "longitude": 116.56651,
+    "altitude": 361,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 237,
+    "name": "Kab. Lombok Utara",
+    "province_id": 52,
+    "latitude": -8.27713,
+    "longitude": 116.22608,
+    "altitude": 6,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 238,
+    "name": "Kota Lubuklinggau",
+    "province_id": 16,
+    "latitude": -3.26931,
+    "longitude": 102.91043,
+    "altitude": 106,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 239,
+    "name": "Kab. Lumajang",
+    "province_id": 35,
+    "latitude": -8.12643,
+    "longitude": 113.22592,
+    "altitude": 52,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 240,
+    "name": "Kab. Luwu Timur",
+    "province_id": 73,
+    "latitude": -2.58133,
+    "longitude": 121.07814,
+    "altitude": 67,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 241,
+    "name": "Kab. Luwu Utara",
+    "province_id": 73,
+    "latitude": -2.55394,
+    "longitude": 120.31276,
+    "altitude": 48,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 242,
+    "name": "Kab. Luwu",
+    "province_id": 73,
+    "latitude": -3.21977,
+    "longitude": 120.29135,
+    "altitude": 32,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 243,
+    "name": "Kab. Madiun",
+    "province_id": 35,
+    "latitude": -7.59138,
+    "longitude": 111.57233,
+    "altitude": 57,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 244,
+    "name": "Kab. Magelang",
+    "province_id": 33,
+    "latitude": -7.46077,
+    "longitude": 110.22256,
+    "altitude": 383,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 245,
+    "name": "Kab. Magetan",
+    "province_id": 35,
+    "latitude": -7.6489,
+    "longitude": 111.34298,
+    "altitude": 307,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 246,
+    "name": "Kab. Mahakam Ulu",
+    "province_id": 64,
+    "latitude": 0.461041,
+    "longitude": 116.470856,
+    "altitude": 72,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 247,
+    "name": "Kab. Majalengka",
+    "province_id": 32,
+    "latitude": -6.83486,
+    "longitude": 108.24713,
+    "altitude": 155,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 248,
+    "name": "Kab. Majene",
+    "province_id": 76,
+    "latitude": -3.0391,
+    "longitude": 118.85923,
+    "altitude": 132,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 249,
+    "name": "Kota Makassar",
+    "province_id": 73,
+    "latitude": -5.1465,
+    "longitude": 119.42293,
+    "altitude": 7,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 250,
+    "name": "Kab. Malaka",
+    "province_id": 53,
+    "latitude": -9.44559,
+    "longitude": 119.38406,
+    "altitude": 96,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 251,
+    "name": "Kab. Malang",
+    "province_id": 35,
+    "latitude": -7.98122,
+    "longitude": 112.62875,
+    "altitude": 444,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 252,
+    "name": "Kab. Malinau",
+    "province_id": 65,
+    "latitude": 2.41942,
+    "longitude": 115.63357,
+    "altitude": 751,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 253,
+    "name": "Kab. Maluku Barat Daya",
+    "province_id": 81,
+    "latitude": -7.805376,
+    "longitude": 126.315765,
+    "altitude": 673,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 254,
+    "name": "Kab. Maluku Tengah",
+    "province_id": 81,
+    "latitude": -3.59748,
+    "longitude": 128.3366,
+    "altitude": 55,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 255,
+    "name": "Kab. Maluku Tenggara Barat",
+    "province_id": 81,
+    "latitude": -7.98466,
+    "longitude": 131.30373,
+    "altitude": 43,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 256,
+    "name": "Kab. Maluku Tenggara",
+    "province_id": 81,
+    "latitude": -5.75368,
+    "longitude": 132.7005,
+    "altitude": 23,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 257,
+    "name": "Kab. Mamasa",
+    "province_id": 76,
+    "latitude": -2.92676,
+    "longitude": 119.46721,
+    "altitude": 1660,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 258,
+    "name": "Kab. Mamberamo Raya",
+    "province_id": 94,
+    "latitude": -2.489884,
+    "longitude": 137.969111,
+    "altitude": 472,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 259,
+    "name": "Kab. Mamberamo Tengah",
+    "province_id": 94,
+    "latitude": -3.607939,
+    "longitude": 139.028364,
+    "altitude": 1268,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 260,
+    "name": "Kab. Mamuju Tengah",
+    "province_id": 76,
+    "latitude": -2.72799,
+    "longitude": 118.9307,
+    "altitude": 387,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 261,
+    "name": "Kab. Mamuju Utara",
+    "province_id": 76,
+    "latitude": -1.18319,
+    "longitude": 119.34596,
+    "altitude": 11,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 262,
+    "name": "Kab. Mamuju",
+    "province_id": 76,
+    "latitude": -2.72799,
+    "longitude": 118.9307,
+    "altitude": 387,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 263,
+    "name": "Kota Manado",
+    "province_id": 71,
+    "latitude": 1.48701,
+    "longitude": 124.8402,
+    "altitude": 15,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 264,
+    "name": "Kab. Mandailing Natal",
+    "province_id": 12,
+    "latitude": 0.77543,
+    "longitude": 99.57928,
+    "altitude": 303,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 265,
+    "name": "Kab. Manggarai Barat",
+    "province_id": 53,
+    "latitude": -8.77535,
+    "longitude": 120.15522,
+    "altitude": 21,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 266,
+    "name": "Kab. Manggarai Timur",
+    "province_id": 53,
+    "latitude": -8.62512,
+    "longitude": 120.61756,
+    "altitude": 1484,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 267,
+    "name": "Kab. Manggarai",
+    "province_id": 53,
+    "latitude": -8.6112,
+    "longitude": 120.46781,
+    "altitude": 1187,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 268,
+    "name": "Kab. Manokwari Selatan",
+    "province_id": 91,
+    "latitude": -0.89854,
+    "longitude": 134.0443,
+    "altitude": 28,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 269,
+    "name": "Kab. Manokwari",
+    "province_id": 91,
+    "latitude": -0.86058,
+    "longitude": 134.06643,
+    "altitude": 33,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 270,
+    "name": "Kab. Mappi",
+    "province_id": 94,
+    "latitude": -6.49932,
+    "longitude": 139.39577,
+    "altitude": 28,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 271,
+    "name": "Kab. Maros",
+    "province_id": 73,
+    "latitude": -5.05413,
+    "longitude": 119.72206,
+    "altitude": 208,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 272,
+    "name": "Kota Mataram",
+    "province_id": 52,
+    "latitude": -8.59488,
+    "longitude": 116.10539,
+    "altitude": 16,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 273,
+    "name": "Kab. Maybrat",
+    "province_id": 91,
+    "latitude": -1.31926,
+    "longitude": 132.26857,
+    "altitude": 386,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 274,
+    "name": "Kota Medan",
+    "province_id": 12,
+    "latitude": 3.59211,
+    "longitude": 98.67694,
+    "altitude": 17,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 275,
+    "name": "Kab. Melawi",
+    "province_id": 61,
+    "latitude": -0.63862,
+    "longitude": 111.77004,
+    "altitude": 113,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 276,
+    "name": "Kab. Mempawah",
+    "province_id": 61,
+    "latitude": 0.36667,
+    "longitude": 108.96667,
+    "altitude": 4,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 277,
+    "name": "Kab. Merangin",
+    "province_id": 15,
+    "latitude": -2.13398,
+    "longitude": 102.18101,
+    "altitude": 120,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 278,
+    "name": "Kab. Merauke",
+    "province_id": 94,
+    "latitude": -8.52206,
+    "longitude": 140.39321,
+    "altitude": 2,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 279,
+    "name": "Kab. Mesuji",
+    "province_id": 18,
+    "latitude": -3.86039,
+    "longitude": 105.45733,
+    "altitude": 5,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 280,
+    "name": "Kota Metro",
+    "province_id": 18,
+    "latitude": -5.11893,
+    "longitude": 105.30759,
+    "altitude": 52,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 281,
+    "name": "Kab. Mimika",
+    "province_id": 94,
+    "latitude": -4.53266,
+    "longitude": 136.8319,
+    "altitude": 27,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 282,
+    "name": "Kab. Minahasa Selatan",
+    "province_id": 71,
+    "latitude": 1.03393,
+    "longitude": 124.31019,
+    "altitude": 10,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 283,
+    "name": "Kab. Minahasa Tenggara",
+    "province_id": 71,
+    "latitude": 1.0276,
+    "longitude": 124.72187,
+    "altitude": 318,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 284,
+    "name": "Kab. Minahasa Utara",
+    "province_id": 71,
+    "latitude": 1.58438,
+    "longitude": 124.83345,
+    "altitude": 37,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 285,
+    "name": "Kab. Minahasa",
+    "province_id": 71,
+    "latitude": 1.20963,
+    "longitude": 124.90874,
+    "altitude": 690,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 286,
+    "name": "Kab. Mojokerto",
+    "province_id": 35,
+    "latitude": -7.46403,
+    "longitude": 112.4323,
+    "altitude": 21,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 287,
+    "name": "Kab. Morowali Utara",
+    "province_id": 72,
+    "latitude": -2.0194,
+    "longitude": 120.96722,
+    "altitude": 395,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 288,
+    "name": "Kab. Morowali",
+    "province_id": 72,
+    "latitude": -2.0194,
+    "longitude": 120.96722,
+    "altitude": 395,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 289,
+    "name": "Kab. Muara Enim",
+    "province_id": 16,
+    "latitude": -3.63436,
+    "longitude": 103.77871,
+    "altitude": 36,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 290,
+    "name": "Kab. Muaro Jambi",
+    "province_id": 15,
+    "latitude": -1.71998,
+    "longitude": 103.5736,
+    "altitude": 61,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 291,
+    "name": "Kab. Mukomuko",
+    "province_id": 17,
+    "latitude": -2.82605,
+    "longitude": 101.42064,
+    "altitude": 32,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 292,
+    "name": "Kab. Muna Barat",
+    "province_id": 74,
+    "latitude": -4.92768,
+    "longitude": 122.52466,
+    "altitude": 62,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 293,
+    "name": "Kab. Muna",
+    "province_id": 74,
+    "latitude": -4.92768,
+    "longitude": 122.52466,
+    "altitude": 62,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 294,
+    "name": "Kab. Murung Raya",
+    "province_id": 62,
+    "latitude": -0.13958,
+    "longitude": 114.41522,
+    "altitude": 526,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 295,
+    "name": "Kab. Musi Banyuasin",
+    "province_id": 16,
+    "latitude": -2.25341,
+    "longitude": 103.80614,
+    "altitude": 60,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 296,
+    "name": "Kab. Musi Rawas Utara",
+    "province_id": 16,
+    "latitude": -2.77824,
+    "longitude": 102.85862,
+    "altitude": 53,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 297,
+    "name": "Kab. Musi Rawas",
+    "province_id": 16,
+    "latitude": -2.77824,
+    "longitude": 102.85862,
+    "altitude": 53,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 298,
+    "name": "Kab. Nabire",
+    "province_id": 94,
+    "latitude": -3.35856,
+    "longitude": 135.50149,
+    "altitude": 6,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 299,
+    "name": "Kab. Nagan Raya",
+    "province_id": 11,
+    "latitude": 4.09976,
+    "longitude": 96.36943,
+    "altitude": 21,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 300,
+    "name": "Kab. Nagekeo",
+    "province_id": 53,
+    "latitude": -8.76371,
+    "longitude": 121.1893,
+    "altitude": 514,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 301,
+    "name": "Kab. Natuna",
+    "province_id": 21,
+    "latitude": 3.90878,
+    "longitude": 108.20168,
+    "altitude": 33,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 302,
+    "name": "Kab. Nduga",
+    "province_id": 94,
+    "latitude": -4.427393,
+    "longitude": 138.240473,
+    "altitude": 422,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 303,
+    "name": "Kab. Ngada",
+    "province_id": 53,
+    "latitude": -8.8507,
+    "longitude": 120.86031,
+    "altitude": 37,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 304,
+    "name": "Kab. Nganjuk",
+    "province_id": 35,
+    "latitude": -7.60054,
+    "longitude": 111.92049,
+    "altitude": 53,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 305,
+    "name": "Kab. Ngawi",
+    "province_id": 35,
+    "latitude": -7.42374,
+    "longitude": 111.42575,
+    "altitude": 51,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 306,
+    "name": "Kab. Nias Barat",
+    "province_id": 12,
+    "latitude": 1.03953,
+    "longitude": 97.50412,
+    "altitude": 243,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 307,
+    "name": "Kab. Nias Selatan",
+    "province_id": 12,
+    "latitude": 0.79063,
+    "longitude": 97.7538,
+    "altitude": 176,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 308,
+    "name": "Kab. Nias Utara",
+    "province_id": 12,
+    "latitude": 1.29782,
+    "longitude": 97.36411,
+    "altitude": 61,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 309,
+    "name": "Kab. Nias",
+    "province_id": 12,
+    "latitude": 1.00548,
+    "longitude": 97.8029,
+    "altitude": 65,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 310,
+    "name": "Kab. Nunukan",
+    "province_id": 65,
+    "latitude": 4.24264,
+    "longitude": 117.30056,
+    "altitude": 75,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 311,
+    "name": "Kab. Ogan Ilir",
+    "province_id": 16,
+    "latitude": -3.25158,
+    "longitude": 104.67357,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 312,
+    "name": "Kab. Ogan Komering Ilir",
+    "province_id": 16,
+    "latitude": -3.17019,
+    "longitude": 105.29276,
+    "altitude": 16,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 313,
+    "name": "Kab. Ogan Komering Ulu Selatan",
+    "province_id": 16,
+    "latitude": -4.57553,
+    "longitude": 103.68552,
+    "altitude": 604,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 314,
+    "name": "Kab. Ogan Komering Ulu Timur",
+    "province_id": 16,
+    "latitude": -4.06207,
+    "longitude": 104.47149,
+    "altitude": 75,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 315,
+    "name": "Kab. Ogan Komering Ulu",
+    "province_id": 16,
+    "latitude": -4.09698,
+    "longitude": 104.09521,
+    "altitude": 58,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 316,
+    "name": "Kab. Pacitan",
+    "province_id": 35,
+    "latitude": -8.2259,
+    "longitude": 111.07148,
+    "altitude": 44,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 317,
+    "name": "Kab. Padang Lawas Utara",
+    "province_id": 12,
+    "latitude": 1.55572,
+    "longitude": 99.69785,
+    "altitude": 116,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 318,
+    "name": "Kab. Padang Lawas",
+    "province_id": 12,
+    "latitude": 1.13604,
+    "longitude": 99.59324,
+    "altitude": 278,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 319,
+    "name": "Kota Padang Panjang",
+    "province_id": 13,
+    "latitude": -0.46321,
+    "longitude": 100.39714,
+    "altitude": 776,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 320,
+    "name": "Kab. Padang Pariaman",
+    "province_id": 13,
+    "latitude": -0.56318,
+    "longitude": 100.28141,
+    "altitude": 82,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 321,
+    "name": "Kota Padang Sidempuan",
+    "province_id": 12,
+    "latitude": 1.38113,
+    "longitude": 99.27436,
+    "altitude": 317,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 322,
+    "name": "Kota Padang",
+    "province_id": 13,
+    "latitude": -0.94825,
+    "longitude": 100.35496,
+    "altitude": 12,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 323,
+    "name": "Kota Pagar Alam",
+    "province_id": 16,
+    "latitude": -4.03849,
+    "longitude": 103.24518,
+    "altitude": 725,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 324,
+    "name": "Kab. Pakpak Bharat",
+    "province_id": 12,
+    "latitude": 2.64754,
+    "longitude": 98.24966,
+    "altitude": 521,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 325,
+    "name": "Kota Palangka Raya",
+    "province_id": 62,
+    "latitude": -2.2061,
+    "longitude": 113.9119,
+    "altitude": 13,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 326,
+    "name": "Kota Palembang",
+    "province_id": 16,
+    "latitude": -2.98485,
+    "longitude": 104.75889,
+    "altitude": 10,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 327,
+    "name": "Kota Palopo",
+    "province_id": 73,
+    "latitude": -2.99742,
+    "longitude": 120.1966,
+    "altitude": 13,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 328,
+    "name": "Kota Palu",
+    "province_id": 72,
+    "latitude": -0.89822,
+    "longitude": 119.86466,
+    "altitude": 13,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 329,
+    "name": "Kab. Pamekasan",
+    "province_id": 35,
+    "latitude": -7.15245,
+    "longitude": 113.46691,
+    "altitude": 19,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 330,
+    "name": "Kab. Pandeglang",
+    "province_id": 36,
+    "latitude": -6.3169,
+    "longitude": 106.1154,
+    "altitude": 194,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 331,
+    "name": "Kab. Pangandaran",
+    "province_id": 32,
+    "latitude": -7.64892,
+    "longitude": 108.6499,
+    "altitude": 53,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 332,
+    "name": "Kab. Pangkajene Dan Kepulauan",
+    "province_id": 73,
+    "latitude": -4.80773,
+    "longitude": 119.54276,
+    "altitude": 15,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 333,
+    "name": "Kota Pangkal Pinang",
+    "province_id": 19,
+    "latitude": -2.11043,
+    "longitude": 106.11257,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 334,
+    "name": "Kab. Paniai",
+    "province_id": 94,
+    "latitude": -3.9273,
+    "longitude": 136.37363,
+    "altitude": 1798,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 335,
+    "name": "Kota Parepare",
+    "province_id": 73,
+    "latitude": -4.03409,
+    "longitude": 119.62605,
+    "altitude": 25,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 336,
+    "name": "Kota Pariaman",
+    "province_id": 13,
+    "latitude": -0.62564,
+    "longitude": 100.12492,
+    "altitude": 12,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 337,
+    "name": "Kab. Parigi Moutong",
+    "province_id": 72,
+    "latitude": 0.45327,
+    "longitude": 120.98611,
+    "altitude": 9,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 338,
+    "name": "Kab. Pasaman Barat",
+    "province_id": 13,
+    "latitude": 0.23015,
+    "longitude": 99.72251,
+    "altitude": 25,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 339,
+    "name": "Kab. Pasaman",
+    "province_id": 13,
+    "latitude": 0.37582,
+    "longitude": 100.05845,
+    "altitude": 228,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 340,
+    "name": "Kab. Paser",
+    "province_id": 64,
+    "latitude": -1.70414,
+    "longitude": 116.11446,
+    "altitude": 35,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 341,
+    "name": "Kab. Pasuruan",
+    "province_id": 35,
+    "latitude": -7.64108,
+    "longitude": 112.9063,
+    "altitude": 5,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 342,
+    "name": "Kab. Pati",
+    "province_id": 33,
+    "latitude": -6.75213,
+    "longitude": 111.02547,
+    "altitude": 15,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 343,
+    "name": "Kota Payakumbuh",
+    "province_id": 13,
+    "latitude": -0.22217,
+    "longitude": 100.63605,
+    "altitude": 501,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 344,
+    "name": "Kab. Pegunungan Arfak",
+    "province_id": 91,
+    "latitude": -2.041723,
+    "longitude": 132.968342,
+    "altitude": 25,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 345,
+    "name": "Kab. Pegunungan Bintang",
+    "province_id": 94,
+    "latitude": -4.517616,
+    "longitude": 140.532517,
+    "altitude": 1701,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 346,
+    "name": "Kab. Pekalongan",
+    "province_id": 33,
+    "latitude": -6.88884,
+    "longitude": 109.66632,
+    "altitude": 12,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 347,
+    "name": "Kota Pekanbaru",
+    "province_id": 14,
+    "latitude": 0.49197,
+    "longitude": 101.41907,
+    "altitude": 18,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 348,
+    "name": "Kab. Pelalawan",
+    "province_id": 14,
+    "latitude": 0.36224,
+    "longitude": 101.89914,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 349,
+    "name": "Kab. Pemalang",
+    "province_id": 33,
+    "latitude": -6.87279,
+    "longitude": 109.37181,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 350,
+    "name": "Kota Pematang Siantar",
+    "province_id": 12,
+    "latitude": 2.95778,
+    "longitude": 99.0677,
+    "altitude": 380,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 351,
+    "name": "Kab. Penajam Paser Utara",
+    "province_id": 64,
+    "latitude": -1.15717,
+    "longitude": 116.59261,
+    "altitude": 33,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 352,
+    "name": "Kab. Penukal Abab Lematang Ilir",
+    "province_id": 16,
+    "latitude": -3.15665,
+    "longitude": 104.0482,
+    "altitude": 14,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 353,
+    "name": "Kab. Pesawaran",
+    "province_id": 18,
+    "latitude": -5.39715,
+    "longitude": 105.06552,
+    "altitude": 143,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 354,
+    "name": "Kab. Pesisir Barat",
+    "province_id": 18,
+    "latitude": -5.49483,
+    "longitude": 104.61885,
+    "altitude": 18,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 355,
+    "name": "Kab. Pesisir Selatan",
+    "province_id": 13,
+    "latitude": -1.78553,
+    "longitude": 100.82558,
+    "altitude": 19,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 356,
+    "name": "Kab. Pidie Jaya",
+    "province_id": 11,
+    "latitude": 5.26363,
+    "longitude": 96.16394,
+    "altitude": 10,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 357,
+    "name": "Kab. Pidie",
+    "province_id": 11,
+    "latitude": 5.38111,
+    "longitude": 95.91835,
+    "altitude": 6,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 358,
+    "name": "Kab. Pinrang",
+    "province_id": 73,
+    "latitude": -3.78881,
+    "longitude": 119.65251,
+    "altitude": 16,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 359,
+    "name": "Kab. Pohuwato",
+    "province_id": 75,
+    "latitude": 0.52428,
+    "longitude": 121.79282,
+    "altitude": 12,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 360,
+    "name": "Kab. Polewali Mandar",
+    "province_id": 76,
+    "latitude": -3.40033,
+    "longitude": 119.24599,
+    "altitude": 4,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 361,
+    "name": "Kab. Ponorogo",
+    "province_id": 35,
+    "latitude": -7.86507,
+    "longitude": 111.45168,
+    "altitude": 94,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 362,
+    "name": "Kota Pontianak",
+    "province_id": 61,
+    "latitude": -0.01986,
+    "longitude": 109.3356,
+    "altitude": 2,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 363,
+    "name": "Kab. Poso",
+    "province_id": 72,
+    "latitude": -1.69132,
+    "longitude": 120.6594,
+    "altitude": 609,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 364,
+    "name": "Kota Prabumulih",
+    "province_id": 16,
+    "latitude": -3.44072,
+    "longitude": 104.23551,
+    "altitude": 50,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 365,
+    "name": "Kab. Pringsewu",
+    "province_id": 18,
+    "latitude": -5.36713,
+    "longitude": 104.93197,
+    "altitude": 127,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 366,
+    "name": "Kab. Probolinggo",
+    "province_id": 35,
+    "latitude": -7.76193,
+    "longitude": 113.23463,
+    "altitude": 13,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 367,
+    "name": "Kab. Pulang Pisau",
+    "province_id": 62,
+    "latitude": -2.57697,
+    "longitude": 114.192,
+    "altitude": 9,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 368,
+    "name": "Kab. Pulau Morotai",
+    "province_id": 82,
+    "latitude": 2.07732,
+    "longitude": 128.315,
+    "altitude": 21,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 369,
+    "name": "Kab. Pulau Taliabu",
+    "province_id": 82,
+    "latitude": 0.869337,
+    "longitude": 128.015929,
+    "altitude": 765,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 370,
+    "name": "Kab. Puncak Jaya",
+    "province_id": 94,
+    "latitude": -3.71414,
+    "longitude": 137.98323,
+    "altitude": 2148,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 371,
+    "name": "Kab. Puncak",
+    "province_id": 94,
+    "latitude": -3.619155,
+    "longitude": 137.399804,
+    "altitude": 1375,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 372,
+    "name": "Kab. Purbalingga",
+    "province_id": 33,
+    "latitude": -7.39881,
+    "longitude": 109.37441,
+    "altitude": 31,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 373,
+    "name": "Kab. Purwakarta",
+    "province_id": 32,
+    "latitude": -6.53209,
+    "longitude": 107.46252,
+    "altitude": 87,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 374,
+    "name": "Kab. Purworejo",
+    "province_id": 33,
+    "latitude": -7.72223,
+    "longitude": 110.0312,
+    "altitude": 55,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 375,
+    "name": "Kab. Raja Ampat",
+    "province_id": 91,
+    "latitude": -0.42425,
+    "longitude": 130.81654,
+    "altitude": 33,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 376,
+    "name": "Kab. Rejang Lebong",
+    "province_id": 17,
+    "latitude": -3.45207,
+    "longitude": 102.71341,
+    "altitude": 659,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 377,
+    "name": "Kab. Rembang",
+    "province_id": 33,
+    "latitude": -6.70619,
+    "longitude": 111.36528,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 378,
+    "name": "Kab. Rokan Hilir",
+    "province_id": 14,
+    "latitude": 1.66857,
+    "longitude": 100.78809,
+    "altitude": 13,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 379,
+    "name": "Kab. Rokan Hulu",
+    "province_id": 14,
+    "latitude": 0.8512,
+    "longitude": 100.31153,
+    "altitude": 74,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 380,
+    "name": "Kab. Rote Ndao",
+    "province_id": 53,
+    "latitude": -10.72203,
+    "longitude": 123.06058,
+    "altitude": 70,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 381,
+    "name": "Kota Sabang",
+    "province_id": 11,
+    "latitude": 5.89066,
+    "longitude": 95.31942,
+    "altitude": 19,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 382,
+    "name": "Kab. Sabu Raijua",
+    "province_id": 53,
+    "latitude": -10.5249,
+    "longitude": 121.923,
+    "altitude": 133,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 383,
+    "name": "Kota Salatiga",
+    "province_id": 33,
+    "latitude": -7.32962,
+    "longitude": 110.49558,
+    "altitude": 568,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 384,
+    "name": "Kota Samarinda",
+    "province_id": 64,
+    "latitude": -0.49544,
+    "longitude": 117.14373,
+    "altitude": 8,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 385,
+    "name": "Kab. Sambas",
+    "province_id": 61,
+    "latitude": 1.32348,
+    "longitude": 109.27849,
+    "altitude": 6,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 386,
+    "name": "Kab. Samosir",
+    "province_id": 12,
+    "latitude": 2.53886,
+    "longitude": 98.62339,
+    "altitude": 1798,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 387,
+    "name": "Kab. Sampang",
+    "province_id": 35,
+    "latitude": -7.18413,
+    "longitude": 113.26334,
+    "altitude": 10,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 388,
+    "name": "Kab. Sanggau",
+    "province_id": 61,
+    "latitude": 0.24911,
+    "longitude": 110.43068,
+    "altitude": 37,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 389,
+    "name": "Kab. Sarmi",
+    "province_id": 94,
+    "latitude": -1.87706,
+    "longitude": 138.75328,
+    "altitude": 6,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 390,
+    "name": "Kab. Sarolangun",
+    "province_id": 15,
+    "latitude": -2.30924,
+    "longitude": 102.66533,
+    "altitude": 47,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 391,
+    "name": "Kota Sawah Lunto",
+    "province_id": 13,
+    "latitude": -0.6549,
+    "longitude": 100.75266,
+    "altitude": 437,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 392,
+    "name": "Kab. Sekadau",
+    "province_id": 61,
+    "latitude": -0.14657,
+    "longitude": 110.90972,
+    "altitude": 37,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 393,
+    "name": "Kab. Seluma",
+    "province_id": 17,
+    "latitude": -4.06729,
+    "longitude": 102.56603,
+    "altitude": 49,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 394,
+    "name": "Kab. Semarang",
+    "province_id": 33,
+    "latitude": -6.98748,
+    "longitude": 110.37028,
+    "altitude": 12,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 395,
+    "name": "Kab. Seram Bagian Barat",
+    "province_id": 81,
+    "latitude": -3.07987,
+    "longitude": 128.22742,
+    "altitude": 41,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 396,
+    "name": "Kab. Seram Bagian Timur",
+    "province_id": 81,
+    "latitude": -3.53012,
+    "longitude": 130.81551,
+    "altitude": 25,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 397,
+    "name": "Kab. Serang",
+    "province_id": 36,
+    "latitude": -6.10525,
+    "longitude": 106.14743,
+    "altitude": 25,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 398,
+    "name": "Kab. Serdang Bedagai",
+    "province_id": 12,
+    "latitude": 3.49812,
+    "longitude": 99.11993,
+    "altitude": 17,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 399,
+    "name": "Kab. Seruyan",
+    "province_id": 62,
+    "latitude": -1.96116,
+    "longitude": 112.14865,
+    "altitude": 49,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 400,
+    "name": "Kab. Siak",
+    "province_id": 14,
+    "latitude": 0.80663,
+    "longitude": 102.05319,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 401,
+    "name": "Kota Sibolga",
+    "province_id": 12,
+    "latitude": 1.74197,
+    "longitude": 98.78642,
+    "altitude": 35,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 402,
+    "name": "Kab. Sidenreng Rappang",
+    "province_id": 73,
+    "latitude": -3.92624,
+    "longitude": 119.84504,
+    "altitude": 16,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 403,
+    "name": "Kab. Sidoarjo",
+    "province_id": 35,
+    "latitude": -7.46038,
+    "longitude": 112.71749,
+    "altitude": 6,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 404,
+    "name": "Kab. Sigi",
+    "province_id": 72,
+    "latitude": -1.40296,
+    "longitude": 119.97746,
+    "altitude": 696,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 405,
+    "name": "Kab. Sijunjung",
+    "province_id": 13,
+    "latitude": -0.60403,
+    "longitude": 101.10026,
+    "altitude": 310,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 406,
+    "name": "Kab. Sikka",
+    "province_id": 53,
+    "latitude": -8.61391,
+    "longitude": 122.2123,
+    "altitude": 12,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 407,
+    "name": "Kab. Simalungun",
+    "province_id": 12,
+    "latitude": 2.83306,
+    "longitude": 99.03405,
+    "altitude": 639,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 408,
+    "name": "Kab. Simeulue",
+    "province_id": 11,
+    "latitude": 2.59836,
+    "longitude": 95.98304,
+    "altitude": 18,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 409,
+    "name": "Kota Singkawang",
+    "province_id": 61,
+    "latitude": 0.89568,
+    "longitude": 109.03799,
+    "altitude": 13,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 410,
+    "name": "Kab. Sinjai",
+    "province_id": 73,
+    "latitude": -5.22192,
+    "longitude": 120.17148,
+    "altitude": 136,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 411,
+    "name": "Kab. Sintang",
+    "province_id": 61,
+    "latitude": 0.07773,
+    "longitude": 111.5102,
+    "altitude": 26,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 412,
+    "name": "Kab. Situbondo",
+    "province_id": 35,
+    "latitude": -7.77124,
+    "longitude": 113.99715,
+    "altitude": 58,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 413,
+    "name": "Kab. Sleman",
+    "province_id": 34,
+    "latitude": -7.6898,
+    "longitude": 110.34284,
+    "altitude": 258,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 414,
+    "name": "Kab. Solok Selatan",
+    "province_id": 13,
+    "latitude": -1.49447,
+    "longitude": 101.06615,
+    "altitude": 461,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 415,
+    "name": "Kab. Solok",
+    "province_id": 13,
+    "latitude": -1.05835,
+    "longitude": 100.75613,
+    "altitude": 1561,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 416,
+    "name": "Kab. Soppeng",
+    "province_id": 73,
+    "latitude": -4.34791,
+    "longitude": 119.88469,
+    "altitude": 110,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 417,
+    "name": "Kab. Sorong Selatan",
+    "province_id": 91,
+    "latitude": -1.15375,
+    "longitude": 131.97372,
+    "altitude": 156,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 418,
+    "name": "Kab. Sorong",
+    "province_id": 91,
+    "latitude": -0.87209,
+    "longitude": 131.24917,
+    "altitude": 8,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 419,
+    "name": "Kab. Sragen",
+    "province_id": 33,
+    "latitude": -7.43218,
+    "longitude": 111.00015,
+    "altitude": 77,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 420,
+    "name": "Kab. Subang",
+    "province_id": 32,
+    "latitude": -6.55192,
+    "longitude": 107.74985,
+    "altitude": 88,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 421,
+    "name": "Kota Subulussalam",
+    "province_id": 11,
+    "latitude": 2.74984,
+    "longitude": 97.95943,
+    "altitude": 70,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 422,
+    "name": "Kab. Sukabumi",
+    "province_id": 32,
+    "latitude": -6.90389,
+    "longitude": 106.93749,
+    "altitude": 697,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 423,
+    "name": "Kab. Sukamara",
+    "province_id": 62,
+    "latitude": -2.54368,
+    "longitude": 111.24205,
+    "altitude": 17,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 424,
+    "name": "Kab. Sukoharjo",
+    "province_id": 33,
+    "latitude": -7.68747,
+    "longitude": 110.84493,
+    "altitude": 92,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 425,
+    "name": "Kab. Sumba Barat Daya",
+    "province_id": 53,
+    "latitude": -9.44873,
+    "longitude": 119.10704,
+    "altitude": 66,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 426,
+    "name": "Kab. Sumba Barat",
+    "province_id": 53,
+    "latitude": -9.62465,
+    "longitude": 119.41698,
+    "altitude": 441,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 427,
+    "name": "Kab. Sumba Tengah",
+    "province_id": 53,
+    "latitude": -9.64419,
+    "longitude": 119.68499,
+    "altitude": 551,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 428,
+    "name": "Kab. Sumba Timur",
+    "province_id": 53,
+    "latitude": -10.0117,
+    "longitude": 120.44802,
+    "altitude": 651,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 429,
+    "name": "Kab. Sumbawa Barat",
+    "province_id": 52,
+    "latitude": -8.74512,
+    "longitude": 116.83688,
+    "altitude": 36,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 430,
+    "name": "Kab. Sumbawa",
+    "province_id": 52,
+    "latitude": -8.52214,
+    "longitude": 117.43062,
+    "altitude": 74,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 431,
+    "name": "Kab. Sumedang",
+    "province_id": 32,
+    "latitude": -6.89187,
+    "longitude": 108.04725,
+    "altitude": 404,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 432,
+    "name": "Kab. Sumenep",
+    "province_id": 35,
+    "latitude": -7.0067,
+    "longitude": 113.85959,
+    "altitude": 18,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 433,
+    "name": "Kota Sungai Penuh",
+    "province_id": 15,
+    "latitude": -2.06666,
+    "longitude": 101.38925,
+    "altitude": 883,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 434,
+    "name": "Kab. Supiori",
+    "province_id": 94,
+    "latitude": -0.74201,
+    "longitude": 135.74697,
+    "altitude": 44,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 435,
+    "name": "Kota Surabaya",
+    "province_id": 35,
+    "latitude": -7.2631,
+    "longitude": 112.73133,
+    "altitude": 6,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 436,
+    "name": "Kota Surakarta",
+    "province_id": 33,
+    "latitude": -7.55737,
+    "longitude": 110.8222,
+    "altitude": 91,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 437,
+    "name": "Kab. Tabalong",
+    "province_id": 63,
+    "latitude": -1.85621,
+    "longitude": 115.50079,
+    "altitude": 112,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 438,
+    "name": "Kab. Tabanan",
+    "province_id": 51,
+    "latitude": -8.50602,
+    "longitude": 115.13353,
+    "altitude": 181,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 439,
+    "name": "Kab. Takalar",
+    "province_id": 73,
+    "latitude": -5.41029,
+    "longitude": 119.44589,
+    "altitude": 9,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 440,
+    "name": "Kab. Tambrauw",
+    "province_id": 91,
+    "latitude": -0.49769,
+    "longitude": 132.08623,
+    "altitude": 38,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 441,
+    "name": "Kab. Tana Tidung",
+    "province_id": 65,
+    "latitude": 3.48505,
+    "longitude": 116.99965,
+    "altitude": 23,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 442,
+    "name": "Kab. Tana Toraja",
+    "province_id": 73,
+    "latitude": -3.12599,
+    "longitude": 119.86286,
+    "altitude": 965,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 443,
+    "name": "Kab. Tanah Bumbu",
+    "province_id": 63,
+    "latitude": -3.41042,
+    "longitude": 115.63867,
+    "altitude": 39,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 444,
+    "name": "Kab. Tanah Datar",
+    "province_id": 13,
+    "latitude": -0.47042,
+    "longitude": 100.57998,
+    "altitude": 508,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 445,
+    "name": "Kab. Tanah Laut",
+    "province_id": 63,
+    "latitude": -3.8851,
+    "longitude": 114.94096,
+    "altitude": 29,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 446,
+    "name": "Kota Tangerang Selatan",
+    "province_id": 36,
+    "latitude": -6.29526,
+    "longitude": 106.71094,
+    "altitude": 39,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 447,
+    "name": "Kab. Tangerang",
+    "province_id": 36,
+    "latitude": -6.17683,
+    "longitude": 106.63806,
+    "altitude": 15,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 448,
+    "name": "Kab. Tanggamus",
+    "province_id": 18,
+    "latitude": -5.42624,
+    "longitude": 104.72779,
+    "altitude": 544,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 449,
+    "name": "Kota Tanjung Balai",
+    "province_id": 12,
+    "latitude": 3.03933,
+    "longitude": 99.79608,
+    "altitude": 8,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 450,
+    "name": "Kab. Tanjung Jabung Barat",
+    "province_id": 15,
+    "latitude": -1.15351,
+    "longitude": 103.08667,
+    "altitude": 25,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 451,
+    "name": "Kab. Tanjung Jabung Timur",
+    "province_id": 15,
+    "latitude": -1.14171,
+    "longitude": 103.9221,
+    "altitude": 3,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 452,
+    "name": "Kota Tanjung Pinang",
+    "province_id": 21,
+    "latitude": 0.91078,
+    "longitude": 104.5192,
+    "altitude": 11,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 453,
+    "name": "Kab. Tapanuli Selatan",
+    "province_id": 12,
+    "latitude": 1.4378,
+    "longitude": 99.15633,
+    "altitude": 558,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 454,
+    "name": "Kab. Tapanuli Tengah",
+    "province_id": 12,
+    "latitude": 1.90379,
+    "longitude": 98.61364,
+    "altitude": 29,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 455,
+    "name": "Kab. Tapanuli Utara",
+    "province_id": 12,
+    "latitude": 2.22108,
+    "longitude": 98.98178,
+    "altitude": 1297,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 456,
+    "name": "Kab. Tapin",
+    "province_id": 63,
+    "latitude": -2.91896,
+    "longitude": 114.98158,
+    "altitude": 7,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 457,
+    "name": "Kota Tarakan",
+    "province_id": 65,
+    "latitude": 3.33944,
+    "longitude": 117.58722,
+    "altitude": 46,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 458,
+    "name": "Kab. Tasikmalaya",
+    "province_id": 32,
+    "latitude": -7.33709,
+    "longitude": 108.21851,
+    "altitude": 355,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 459,
+    "name": "Kota Tebing Tinggi",
+    "province_id": 12,
+    "latitude": 3.38415,
+    "longitude": 99.16671,
+    "altitude": 19,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 460,
+    "name": "Kab. Tebo",
+    "province_id": 15,
+    "latitude": -1.4614,
+    "longitude": 102.4031,
+    "altitude": 62,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 461,
+    "name": "Kab. Tegal",
+    "province_id": 33,
+    "latitude": -6.86751,
+    "longitude": 109.1365,
+    "altitude": 13,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 462,
+    "name": "Kab. Teluk Bintuni",
+    "province_id": 91,
+    "latitude": -2.45732,
+    "longitude": 133.1143,
+    "altitude": 27,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 463,
+    "name": "Kab. Teluk Wondama",
+    "province_id": 91,
+    "latitude": -2.48978,
+    "longitude": 134.54072,
+    "altitude": 94,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 464,
+    "name": "Kab. Temanggung",
+    "province_id": 33,
+    "latitude": -7.31978,
+    "longitude": 110.18157,
+    "altitude": 563,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 465,
+    "name": "Kota Ternate",
+    "province_id": 82,
+    "latitude": 0.8,
+    "longitude": 127.4,
+    "altitude": -85,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 466,
+    "name": "Kota Tidore Kepulauan",
+    "province_id": 82,
+    "latitude": 0.33095,
+    "longitude": 127.80205,
+    "altitude": 260,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 467,
+    "name": "Kab. Timor Tengah Selatan",
+    "province_id": 53,
+    "latitude": -9.8641,
+    "longitude": 124.27813,
+    "altitude": 820,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 468,
+    "name": "Kab. Timor Tengah Utara",
+    "province_id": 53,
+    "latitude": -9.06474,
+    "longitude": 124.81436,
+    "altitude": 53,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 469,
+    "name": "Kab. Toba Samosir",
+    "province_id": 12,
+    "latitude": 2.38096,
+    "longitude": 99.14778,
+    "altitude": 918,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 470,
+    "name": "Kab. Tojo Una-una",
+    "province_id": 72,
+    "latitude": -1.04025,
+    "longitude": 121.37331,
+    "altitude": 145,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 471,
+    "name": "Kab. Toli-toli",
+    "province_id": 72,
+    "latitude": 1.04403,
+    "longitude": 120.81313,
+    "altitude": 27,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 472,
+    "name": "Kab. Tolikara",
+    "province_id": 94,
+    "latitude": -3.483929,
+    "longitude": 138.408588,
+    "altitude": 1975,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 473,
+    "name": "Kota Tomohon",
+    "province_id": 71,
+    "latitude": 1.32081,
+    "longitude": 124.83828,
+    "altitude": 748,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 474,
+    "name": "Kab. Toraja Utara",
+    "province_id": 73,
+    "latitude": -2.95696,
+    "longitude": 119.929,
+    "altitude": 822,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 475,
+    "name": "Kab. Trenggalek",
+    "province_id": 35,
+    "latitude": -8.02394,
+    "longitude": 111.70732,
+    "altitude": 154,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 476,
+    "name": "Kota Tual",
+    "province_id": 81,
+    "latitude": -5.6365,
+    "longitude": 132.74279,
+    "altitude": 11,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 477,
+    "name": "Kab. Tuban",
+    "province_id": 35,
+    "latitude": -6.90069,
+    "longitude": 112.04858,
+    "altitude": 22,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 478,
+    "name": "Kab. Tulang Bawang Barat",
+    "province_id": 18,
+    "latitude": -4.4833,
+    "longitude": 105.09112,
+    "altitude": 23,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 479,
+    "name": "Kab. Tulang Bawang",
+    "province_id": 18,
+    "latitude": -4.33144,
+    "longitude": 104.63222,
+    "altitude": 32,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 480,
+    "name": "Kab. Tulungagung",
+    "province_id": 35,
+    "latitude": -8.07314,
+    "longitude": 111.90309,
+    "altitude": 87,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 481,
+    "name": "Kab. Wajo",
+    "province_id": 73,
+    "latitude": -4.00034,
+    "longitude": 120.19193,
+    "altitude": 31,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 482,
+    "name": "Kab. Wakatobi",
+    "province_id": 74,
+    "latitude": -5.31455,
+    "longitude": 123.58417,
+    "altitude": 102,
+    "utc": 8,
+    "timezone": "WITA"
+  },
+  {
+    "id": 483,
+    "name": "Kab. Waropen",
+    "province_id": 94,
+    "latitude": -2.29266,
+    "longitude": 136.75784,
+    "altitude": 32,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 484,
+    "name": "Kab. Way Kanan",
+    "province_id": 18,
+    "latitude": -4.37482,
+    "longitude": 104.82156,
+    "altitude": 28,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 485,
+    "name": "Kab. Wonogiri",
+    "province_id": 33,
+    "latitude": -7.81458,
+    "longitude": 110.96132,
+    "altitude": 181,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 486,
+    "name": "Kab. Wonosobo",
+    "province_id": 33,
+    "latitude": -7.36914,
+    "longitude": 109.92716,
+    "altitude": 773,
+    "utc": 7,
+    "timezone": "WIB"
+  },
+  {
+    "id": 487,
+    "name": "Kab. Yahukimo",
+    "province_id": 94,
+    "latitude": -4.489125,
+    "longitude": 139.602971,
+    "altitude": 2074,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 488,
+    "name": "Kab. Yalimo",
+    "province_id": 94,
+    "latitude": -3.8136,
+    "longitude": 139.458815,
+    "altitude": 680,
+    "utc": 9,
+    "timezone": "WIT"
+  },
+  {
+    "id": 489,
+    "name": "Kota Yogyakarta",
+    "province_id": 34,
+    "latitude": -7.80371,
+    "longitude": 110.3748,
+    "altitude": 105,
+    "utc": 7,
+    "timezone": "WIB"
+  }
+]
