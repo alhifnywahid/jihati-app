@@ -24,12 +24,12 @@ class SettingController extends GetxController {
         {
           "title": "Tersimpan",
           "icon": LucideIcons.bookmark_check,
-          "onTap": () => Get.toNamed(Routes.BOOKMARK),
+          "onTap": () => Get.toNamed(Routes.bookmark),
         },
         {
           "title": "Riwayat",
           "icon": Icons.history_outlined,
-          "onTap": () => Get.toNamed(Routes.HISTORY),
+          "onTap": () => Get.toNamed(Routes.history),
         },
       ],
     },
@@ -39,7 +39,7 @@ class SettingController extends GetxController {
         {
           "title": "Tentang Kami",
           "icon": Icons.person_outline,
-          "onTap": () => Get.toNamed(Routes.ABOUTME),
+          "onTap": () => Get.toNamed(Routes.aboutme),
         },
         // {
         //   "title": "Bagikan Aplikasi",
@@ -59,7 +59,7 @@ class SettingController extends GetxController {
         {
           "title": "Media Sosial Kami",
           "icon": Icons.people_outline,
-          "onTap": () => Get.toNamed(Routes.ACCOUNTME),
+          "onTap": () => Get.toNamed(Routes.accountme),
         },
       ],
     },

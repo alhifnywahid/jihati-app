@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:forui/forui.dart';
 import 'package:get/get.dart';
-import 'package:jihati/app/controllers/tab_switcher_controller.dart';
 import 'package:jihati/app/modules/bookmark/controllers/bookmark_controller.dart';
 import 'package:jihati/app/modules/jihati/controllers/jihati_controller.dart';
 import 'package:jihati/app/modules/quran/controllers/quran_controller.dart';
@@ -9,86 +9,75 @@ import 'package:jihati/app/services/quran_storage_service.dart';
 import 'package:jihati/app/widgets/frame_ayat.widget.dart';
 import 'package:jihati/app/widgets/jihati_list_view.widget.dart';
 import 'package:jihati/app/widgets/no_result.widget.dart';
-import 'package:jihati/app/widgets/tab_switcher.widget.dart';
 
 class BookmarkView extends GetView<BookmarkController> {
   const BookmarkView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final tabController = Get.put(
-      TabSwitcherController(),
-      tag: 'bookmark_tabs',
-    );
-    final alquranTabKey = GlobalKey<_AlquranBookmarkContentState>();
-    return Scaffold(
-      appBar: AppBar(
+    return FScaffold(
+      header: FHeader.nested(
         title: const Text('Tersimpan'),
-        centerTitle: true,
-        actions: [
+        prefixes: [FHeaderAction.back(onPress: () => Get.back())],
+        suffixes: [
           Obx(() {
-            final isJihatiTab = tabController.selectedIndex.value == 0;
-            final bookmarkController = Get.find<BookmarkController>();
-            final hasBookmark = isJihatiTab
-                ? bookmarkController.bookmarks.isNotEmpty
-                : QuranStorageService().getBookmarks().isNotEmpty;
-            
-            return hasBookmark
-                ? IconButton(
-                    icon: const Icon(Icons.clear_all),
-                    tooltip: 'Hapus Semua',
-                    onPressed: () {
-                      Get.dialog(
-                        AlertDialog(
-                          title: const Text('Hapus Tersimpan'),
-                          content: Text(
-                            isJihatiTab
-                                ? 'Apakah Anda yakin ingin menghapus semua bookmark Jihati?'
-                                : 'Apakah Anda yakin ingin menghapus semua bookmark Al-Quran?',
-                          ),
-                          actions: [
-                            TextButton(
-                              onPressed: () => Get.back(),
-                              child: const Text('Batal'),
-                            ),
-                            TextButton(
-                              onPressed: () {
-                                if (isJihatiTab) {
-                                  bookmarkController.bookmarks.clear();
-                                  bookmarkController.storage.saveBookmarks([]);
-                                } else {
-                                  QuranStorageService().saveBookmarks([]);
-                                  alquranTabKey.currentState?.refresh();
-                                }
-                                Get.back();
-                              },
-                              child: const Text('Hapus'),
-                            ),
-                          ],
-                        ),
-                      );
-                    },
-                  )
-                : const SizedBox.shrink();
+            final hasJihatiBookmarks = controller.bookmarks.isNotEmpty;
+            final hasQuranBookmarks =
+                QuranStorageService().getBookmarks().isNotEmpty;
+            if (!hasJihatiBookmarks && !hasQuranBookmarks) {
+              return const SizedBox.shrink();
+            }
+            return FHeaderAction(
+              icon: const Icon(FIcons.trash2),
+              onPress: () => _showClearDialog(context),
+            );
           }),
         ],
       ),
-      body: TabSwitcherWidget(
-        controllerTag: 'bookmark_tabs',
-        tabItems: [
-          {'label': 'Jihati', 'content': const JihatiBookmarkContent()},
-          {
-            'label': 'Al-Quran',
-            'content': AlquranBookmarkContent(key: alquranTabKey),
-          },
+      child: FTabs(
+        children: [
+          FTabEntry(
+            label: const Text('Jihati'),
+            child: const _JihatiBookmarkContent(),
+          ),
+          FTabEntry(
+            label: const Text('Al-Quran'),
+            child: const _AlquranBookmarkContent(),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showClearDialog(BuildContext context) {
+    showFDialog(
+      context: context,
+      builder: (context, _, __) => FDialog(
+        title: const Text('Hapus Tersimpan'),
+        body: const Text('Apakah Anda yakin ingin menghapus semua data tersimpan?'),
+        actions: [
+          FButton(
+            onPress: () => Get.back(),
+            child: const Text('Batal'),
+          ),
+          FButton(
+            onPress: () {
+              final bookmarkController = Get.find<BookmarkController>();
+              bookmarkController.bookmarks.clear();
+              bookmarkController.storage.saveBookmarks([]);
+              QuranStorageService().saveBookmarks([]);
+              Get.back();
+            },
+            child: const Text('Hapus'),
+          ),
         ],
       ),
     );
   }
 }
 
-class JihatiBookmarkContent extends StatelessWidget {
-  const JihatiBookmarkContent({super.key});
+class _JihatiBookmarkContent extends StatelessWidget {
+  const _JihatiBookmarkContent();
 
   @override
   Widget build(BuildContext context) {
@@ -97,13 +86,12 @@ class JihatiBookmarkContent extends StatelessWidget {
 
     return Obx(() {
       final bookmarkIds = bookmarkController.bookmarks;
-
       final bookmarkedItems = jihatiController.contents
           .where((item) => bookmarkIds.contains(item.id.toString()))
           .toList();
 
       if (bookmarkedItems.isEmpty) {
-        return const NoResultWidget(text: "Belum ada jihati yang tersimpan!");
+        return const NoResultWidget(text: 'Belum ada jihati yang tersimpan!');
       }
 
       return JihatiListViewWidget(
@@ -111,7 +99,7 @@ class JihatiBookmarkContent extends StatelessWidget {
         onItemTap: (item) {
           final index = bookmarkedItems.indexOf(item);
           Get.toNamed(
-            Routes.JIHATI_DETAIL,
+            Routes.jihatiDetail,
             arguments: {
               'id': item.id,
               'arabicTitle': item.titleArabic,
@@ -126,20 +114,19 @@ class JihatiBookmarkContent extends StatelessWidget {
   }
 }
 
-class AlquranBookmarkContent extends StatefulWidget {
-  const AlquranBookmarkContent({super.key});
+class _AlquranBookmarkContent extends StatefulWidget {
+  const _AlquranBookmarkContent();
+
   @override
-  State<AlquranBookmarkContent> createState() => _AlquranBookmarkContentState();
+  State<_AlquranBookmarkContent> createState() =>
+      _AlquranBookmarkContentState();
 }
 
-class _AlquranBookmarkContentState extends State<AlquranBookmarkContent> {
-  void refresh() => setState(() {});
-
+class _AlquranBookmarkContentState extends State<_AlquranBookmarkContent> {
   @override
   Widget build(BuildContext context) {
     final quranController = Get.find<QuranController>();
-    final storage = QuranStorageService();
-    final bookmarkIds = storage.getBookmarks();
+    final bookmarkIds = QuranStorageService().getBookmarks();
     final bookmarkedSurah = quranController.allSurah
         .where((s) => bookmarkIds.contains(s.id.toString()))
         .toList();
@@ -148,25 +135,21 @@ class _AlquranBookmarkContentState extends State<AlquranBookmarkContent> {
       return const NoResultWidget(text: "Belum ada al-qur'an yang tersimpan!");
     }
 
-    return ListView.separated(
+    return ListView.builder(
       itemCount: bookmarkedSurah.length,
-      separatorBuilder: (context, index) => const Padding(
-        padding: EdgeInsets.symmetric(horizontal: 16.0),
-        child: Divider(height: 1),
-      ),
       itemBuilder: (context, index) {
         final surah = bookmarkedSurah[index];
-        return ListTile(
-          leading: FrameAyat(text: surah.id.toString()),
+        return FTile(
+          prefix: FrameAyat(text: surah.id.toString()),
           title: Text(surah.name, style: const TextStyle(fontSize: 16)),
           subtitle: Text('${surah.translate} (${surah.verseCount} ayat)'),
-          trailing: Text(
+          suffix: Text(
             String.fromCharCode(0xE800 + (surah.id)),
-            style: const TextStyle(fontSize: 28, fontFamily: "SurahQuranNU"),
+            style: const TextStyle(fontSize: 26, fontFamily: 'SurahQuranNU'),
           ),
-          onTap: () {
+          onPress: () {
             Get.toNamed(
-              Routes.QURAN_DETAIL,
+              Routes.quranDetail,
               arguments: {
                 'surah': surah,
                 'listSurah': bookmarkedSurah,

@@ -44,8 +44,8 @@ class _IntroductionViewState extends State<IntroductionView>
                     sigmaY: controller.blurAnimation.value,
                   ),
                   child: Container(
-                    color: Colors.black.withOpacity(
-                      0.2 * (controller.blurAnimation.value / 6.0),
+                    color: Colors.black.withValues(
+                      alpha: 0.2 * (controller.blurAnimation.value / 6.0),
                     ),
                   ),
                 ),

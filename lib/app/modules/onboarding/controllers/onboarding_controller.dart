@@ -55,7 +55,7 @@ class OnboardingController extends GetxController with WidgetsBindingObserver {
       store.write("onboarding", true);
       textFinish.value = "Tunggu Sebentar...";
       Future.delayed(Duration(seconds: 2), () {
-        Get.offAllNamed(Routes.MAIN_NAVIGATION);
+        Get.offAllNamed(Routes.mainNavigation);
       });
     } else {
       nextPage();

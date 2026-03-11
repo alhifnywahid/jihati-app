@@ -1,29 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
+import 'package:forui/forui.dart';
 
 class NoResultWidget extends StatelessWidget {
   final String text;
+
   const NoResultWidget({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Column(
-        children: [
-          Lottie.asset(
-            'assets/lottie/lottie-empty-result.json',
-            width: 250,
-            height: 250,
-            reverse: true,
-          ),
-          Transform.translate(
-            offset: const Offset(0, -20),
-            child: Text(
-              text,
-              style: TextStyle(fontSize: 16),
-            ),
-          ),
-        ],
+    return Padding(
+      padding: const EdgeInsets.all(24),
+      child: FAlert(
+        icon: const Icon(FIcons.searchX),
+        title: const Text('Tidak Ditemukan'),
+        subtitle: Text(text),
       ),
     );
   }

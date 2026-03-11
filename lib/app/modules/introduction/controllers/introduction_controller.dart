@@ -72,9 +72,9 @@ class IntroductionController extends GetxController
       final isOnboarding = storage.read("onboarding");
         // Get.offAllNamed(Routes.ONBOARDING);
       if (isOnboarding == true) {
-        Get.offAllNamed(Routes.MAIN_NAVIGATION);
+        Get.offAllNamed(Routes.mainNavigation);
       } else {
-        Get.offAllNamed(Routes.ONBOARDING);
+        Get.offAllNamed(Routes.onboarding);
       }
     }
   }

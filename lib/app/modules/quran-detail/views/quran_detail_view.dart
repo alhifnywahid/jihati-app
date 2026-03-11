@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lucide/flutter_lucide.dart';
+import 'package:forui/forui.dart';
 import 'package:get/get.dart';
 import 'package:jihati/app/controllers/reading_preference_controller.dart';
 import 'package:jihati/app/controllers/theme/theme_controller.dart';
@@ -46,9 +46,7 @@ class _QuranDetailViewState extends State<QuranDetailView> {
     final history = storage.getHistory();
     history.remove(idStr);
     history.insert(0, idStr);
-    if (history.length > 50) {
-      history.removeRange(50, history.length);
-    }
+    if (history.length > 50) history.removeRange(50, history.length);
     storage.saveHistory(history);
   }
 
@@ -57,38 +55,35 @@ class _QuranDetailViewState extends State<QuranDetailView> {
     final prefs = Get.find<ReadingPreferenceController>();
     final ThemeController themeC = Get.find();
     final QuranDetailController controller = Get.find();
-    return Scaffold(
-      appBar: AppBar(
+
+    return FScaffold(
+      header: FHeader.nested(
         title: Text(surahList[currentIndex].name),
-        actions: [
+        prefixes: [FHeaderAction.back(onPress: () => Get.back())],
+        suffixes: [
           Obx(
-            () => IconButton(
-              icon: Icon(themeC.currentThemeIcon, color: Colors.white),
-              tooltip: 'Tema',
-              onPressed: () => themeC.changeTheme(),
+            () => FHeaderAction(
+              icon: Icon(themeC.currentThemeIcon),
+              onPress: () => themeC.cycleTheme(),
             ),
           ),
-          IconButton(
-            icon: const Icon(LucideIcons.letter_text),
-            tooltip: 'Preferensi Membaca',
-            onPressed: () => ReadingPreferenceDialog.show(context),
+          FHeaderAction(
+            icon: const Icon(FIcons.textCursorInput),
+            onPress: () => ReadingPreferenceDialog.show(context),
           ),
           Obx(
-            () => IconButton(
+            () => FHeaderAction(
               icon: Icon(
                 controller.isBookmarked.value
-                    ? LucideIcons.bookmark_check
-                    : LucideIcons.bookmark_plus,
+                    ? FIcons.bookmarkCheck
+                    : FIcons.bookmarkPlus,
               ),
-              tooltip: controller.isBookmarked.value
-                  ? 'Hapus dari Tersimpan'
-                  : 'Simpan',
-              onPressed: controller.toggleBookmark,
+              onPress: controller.toggleBookmark,
             ),
           ),
         ],
       ),
-      body: PageView.builder(
+      child: PageView.builder(
         controller: _pageController,
         itemCount: surahList.length,
         onPageChanged: (index) {
@@ -102,24 +97,14 @@ class _QuranDetailViewState extends State<QuranDetailView> {
               return const Center(child: CircularProgressIndicator());
             }
             if (controller.verses.isEmpty) {
-              return const Center(
-                child: Text(
-                  'Tidak ada ayat yang tersedia',
-                  style: TextStyle(fontSize: 18, color: Colors.grey),
-                ),
-              );
+              return const Center(child: Text('Tidak ada ayat yang tersedia'));
             }
             return Column(
               children: [
-                Container(
+                Padding(
                   padding: const EdgeInsets.symmetric(
                     vertical: 12,
-                    horizontal: 12,
-                  ),
-                  decoration: const BoxDecoration(
-                    border: Border(
-                      bottom: BorderSide(width: 0.5, color: Colors.grey),
-                    ),
+                    horizontal: 16,
                   ),
                   child: Row(
                     children: [
@@ -129,24 +114,18 @@ class _QuranDetailViewState extends State<QuranDetailView> {
                           style: const TextStyle(fontSize: 15),
                         ),
                       ),
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 12,
-                          vertical: 2,
-                        ),
-                        child: Text(
-                          "${String.fromCharCode(0xE800 + surah.id)}${String.fromCharCode(0xE800)}",
-                          style: const TextStyle(
-                            fontFamily: 'SurahQuranNU',
-                            fontSize: 28,
-                          ),
+                      Text(
+                        '${String.fromCharCode(0xE800 + surah.id)}${String.fromCharCode(0xE800)}',
+                        style: const TextStyle(
+                          fontFamily: 'SurahQuranNU',
+                          fontSize: 28,
                         ),
                       ),
                       Expanded(
                         child: Align(
                           alignment: Alignment.centerRight,
                           child: Text(
-                            "${surah.verseCount} Ayat",
+                            '${surah.verseCount} Ayat',
                             style: const TextStyle(fontSize: 15),
                           ),
                         ),
@@ -154,15 +133,14 @@ class _QuranDetailViewState extends State<QuranDetailView> {
                     ],
                   ),
                 ),
-                const SizedBox(height: 16),
+                const FDivider(),
                 Expanded(
                   child: Obx(() {
-                    final double fontSize = prefs.arabicFontSize.value;
                     return SingleChildScrollView(
-                      padding: const EdgeInsets.all(12),
+                      padding: const EdgeInsets.all(16),
                       child: QuranArabicVersesWidget(
                         verses: controller.verses.map((v) => v.text).toList(),
-                        fontSize: fontSize,
+                        fontSize: prefs.arabicFontSize.value,
                       ),
                     );
                   }),

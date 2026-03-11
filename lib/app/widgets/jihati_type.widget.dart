@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:forui/forui.dart';
 import 'package:get/get.dart';
 import 'package:jihati/utils/number_utils.dart';
 
@@ -22,8 +23,10 @@ class JihatiTypeWidget extends StatelessWidget {
     return Obx(() {
       final double arabicFontSize = controller.arabicFontSize.value;
 
+      Widget child;
+
       if (schemaType == 1) {
-        return Text(
+        child = Text(
           content as String,
           textAlign: TextAlign.justify,
           textDirection: TextDirection.rtl,
@@ -34,14 +37,12 @@ class JihatiTypeWidget extends StatelessWidget {
             height: 2,
           ),
         );
-      }
-
-      if (schemaType == 2 || schemaType == 4) {
+      } else if (schemaType == 2 || schemaType == 4) {
         final List<String> lines = content is List
             ? List<String>.from(content)
             : (content as String).split('\n');
 
-        return Column(
+        child = Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: List.generate(lines.length * 2 - 1, (index) {
             if (index.isEven) {
@@ -63,86 +64,86 @@ class JihatiTypeWidget extends StatelessWidget {
                 ),
               );
             } else {
-              return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 10),
+              return const Padding(
+                padding: EdgeInsets.symmetric(vertical: 10),
                 child: Divider(height: 1),
               );
             }
           }),
         );
-      }
-
-      if (schemaType == 3) {
+      } else if (schemaType == 3) {
         if (content is! List) {
-          return const Text('Tipe konten untuk skema 3 tidak valid.');
+          child = const Text('Tipe konten untuk skema 3 tidak valid.');
+        } else {
+          final items = content as List;
+          child = Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: items.expand<Widget>((item) {
+              if (item is List && item.length >= 2) {
+                return [
+                  Text(
+                    item[0].toString(),
+                    textDirection: TextDirection.rtl,
+                    textAlign: TextAlign.right,
+                    style: TextStyle(
+                      fontFamily: 'OmarNaskh',
+                      fontWeight: FontWeight.w500,
+                      fontSize: arabicFontSize,
+                      height: 2,
+                    ),
+                  ),
+                  Text(
+                    item[1].toString(),
+                    textDirection: TextDirection.rtl,
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      fontFamily: 'OmarNaskh',
+                      fontWeight: FontWeight.w500,
+                      fontSize: arabicFontSize,
+                      height: 2,
+                    ),
+                  ),
+                ];
+              } else {
+                return [
+                  Text(
+                    item.toString(),
+                    textDirection: TextDirection.rtl,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontFamily: 'OmarNaskh',
+                      fontWeight: FontWeight.w500,
+                      fontSize: arabicFontSize,
+                      height: 2,
+                    ),
+                  ),
+                ];
+              }
+            }).toList(),
+          );
         }
-        final items = content as List;
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: items.expand<Widget>((item) {
-            if (item is List && item.length >= 2) {
-              return [
-                Text(
-                  item[0].toString(),
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.right,
-                  style: TextStyle(
-                    fontFamily: 'OmarNaskh',
-                    fontWeight: FontWeight.w500,
-                    fontSize: arabicFontSize,
-                    height: 2,
-                  ),
-                ),
-                Text(
-                  item[1].toString(),
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.left,
-                  style: TextStyle(
-                    fontFamily: 'OmarNaskh',
-                    fontWeight: FontWeight.w500,
-                    fontSize: arabicFontSize,
-                    height: 2,
-                  ),
-                ),
-              ];
-            } else {
-              return [
-                Text(
-                  item.toString(),
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontFamily: 'OmarNaskh',
-                    fontWeight: FontWeight.w500,
-                    fontSize: arabicFontSize,
-                    height: 2,
-                  ),
-                ),
-              ];
-            }
-          }).toList(),
-        );
-      }
-
-      if (schemaType == 5) {
+      } else if (schemaType == 5) {
         if (content is! List) {
-          return const Text('Tipe konten untuk skema 5 tidak valid.');
+          child = const Text('Tipe konten untuk skema 5 tidak valid.');
+        } else {
+          final List<String> verses = List<String>.from(content);
+          child = QuranArabicVersesWidget(verses: verses, fontSize: arabicFontSize);
         }
-        final List<String> verses = List<String>.from(content);
-        return QuranArabicVersesWidget(
-          verses: verses,
-          fontSize: arabicFontSize,
-        );
-      }
-
-      if (schemaType == 6) {
-        return JihatiType6Widget(
+      } else if (schemaType == 6) {
+        child = JihatiType6Widget(
           content: content,
           arabicFontSize: arabicFontSize,
         );
+      } else {
+        child = const Text('Tipe konten belum didukung');
       }
 
-      return const Text('Tipe konten belum didukung');
+      return FCard(
+        child: Padding(
+          padding: const EdgeInsets.all(4),
+          child: child,
+        ),
+      );
     });
   }
 }
@@ -162,47 +163,38 @@ class JihatiType6Widget extends StatelessWidget {
     final pembuka = content['pembuka'];
     final List sholatList = content['sholat'];
 
-    return SingleChildScrollView(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 6),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.end,
-          children: [
-            // Pembuka
-            _buildLine(context, 'بِلَال :', pembuka['bilal']),
-            const SizedBox(height: 10),
-            _buildLine(context, 'جَمَاعَة :', pembuka['jamaah']),
-            const Divider(thickness: 1, height: 32),
-
-            // Setiap 2 rakaat
-            ...List.generate(sholatList.length, (index) {
-              final item = sholatList[index];
-              final rakaat = item['rakaat'] as List;
-
-              return Column(
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: [
-                  _buildLine(
-                    context,
-                    'رَكْعَة ${toArabicNumber((index * 2) + 1)}:',
-                    'سورة ${rakaat[0]}',
-                  ),
-                  _buildLine(
-                    context,
-                    'رَكْعَة ${toArabicNumber((index * 2) + 2)}:',
-                    'سورة ${rakaat[1]}',
-                  ),
-                  const SizedBox(height: 12),
-                  _buildLine(context, 'بِلَال :', item['bilal']),
-                  const SizedBox(height: 8),
-                  _buildLine(context, 'جَمَاعَة :', item['jamaah']),
-                  const Divider(thickness: 1, height: 32),
-                ],
-              );
-            }),
-          ],
-        ),
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.end,
+      children: [
+        _buildLine(context, 'بِلَال :', pembuka['bilal']),
+        const SizedBox(height: 10),
+        _buildLine(context, 'جَمَاعَة :', pembuka['jamaah']),
+        const Divider(thickness: 1, height: 32),
+        ...List.generate(sholatList.length, (index) {
+          final item = sholatList[index];
+          final rakaat = item['rakaat'] as List;
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
+              _buildLine(
+                context,
+                'رَكْعَة ${toArabicNumber((index * 2) + 1)}:',
+                'سورة ${rakaat[0]}',
+              ),
+              _buildLine(
+                context,
+                'رَكْعَة ${toArabicNumber((index * 2) + 2)}:',
+                'سورة ${rakaat[1]}',
+              ),
+              const SizedBox(height: 12),
+              _buildLine(context, 'بِلَال :', item['bilal']),
+              const SizedBox(height: 8),
+              _buildLine(context, 'جَمَاعَة :', item['jamaah']),
+              const Divider(thickness: 1, height: 32),
+            ],
+          );
+        }),
+      ],
     );
   }
 

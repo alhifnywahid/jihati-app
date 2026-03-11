@@ -13,6 +13,8 @@ class QuranArabicVersesWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Use Material theme colors — compatible with ForUI via toApproximateMaterialTheme()
+    final color = Theme.of(context).colorScheme.onSurface;
     return RichText(
       textDirection: TextDirection.rtl,
       textAlign: TextAlign.justify,
@@ -29,15 +31,13 @@ class QuranArabicVersesWidget extends StatelessWidget {
             children: [
               TextSpan(
                 text: '$verse ',
-                style: TextStyle(
-                  color: Theme.of(context).colorScheme.onSurface,
-                ),
+                style: TextStyle(color: color),
               ),
               TextSpan(
                 text: '\u06DD${toArabicNumber(verseNumber)} ',
                 style: TextStyle(
                   fontSize: fontSize * 0.8,
-                  color: Theme.of(context).colorScheme.onSurface,
+                  color: color,
                 ),
               ),
             ],

@@ -3,32 +3,32 @@ part of 'app_pages.dart';
 
 abstract class Routes {
   Routes._();
-  static const MAIN_NAVIGATION = _Paths.MAIN_NAVIGATION;
-  static const INTRODUCTION = _Paths.INTRODUCTION;
-  static const JIHATI = _Paths.JIHATI;
-  static const SETTING = _Paths.SETTING;
-  static const QURAN = _Paths.QURAN;
-  static const ABOUTME = _Paths.ABOUTME;
-  static const BOOKMARK = _Paths.BOOKMARK;
-  static const HISTORY = _Paths.HISTORY;
-  static const ACCOUNTME = _Paths.ACCOUNTME;
-  static const JIHATI_DETAIL = _Paths.JIHATI_DETAIL;
-  static const QURAN_DETAIL = _Paths.QURAN_DETAIL;
-  static const ONBOARDING = _Paths.ONBOARDING;
+  static const mainNavigation = _Paths.mainNavigation;
+  static const introduction = _Paths.introduction;
+  static const jihati = _Paths.jihati;
+  static const setting = _Paths.setting;
+  static const quran = _Paths.quran;
+  static const aboutme = _Paths.aboutme;
+  static const bookmark = _Paths.bookmark;
+  static const history = _Paths.history;
+  static const accountme = _Paths.accountme;
+  static const jihatiDetail = _Paths.jihatiDetail;
+  static const quranDetail = _Paths.quranDetail;
+  static const onboarding = _Paths.onboarding;
 }
 
 abstract class _Paths {
   _Paths._();
-  static const MAIN_NAVIGATION = '/';
-  static const INTRODUCTION = '/introduction';
-  static const JIHATI = '/jihati';
-  static const SETTING = '/setting';
-  static const QURAN = '/quran';
-  static const ABOUTME = '/aboutme';
-  static const BOOKMARK = '/bookmark';
-  static const HISTORY = '/history';
-  static const ACCOUNTME = '/accountme';
-  static const JIHATI_DETAIL = '/jihati-detail';
-  static const QURAN_DETAIL = '/quran-detail';
-  static const ONBOARDING = '/onboarding';
+  static const mainNavigation = '/';
+  static const introduction = '/introduction';
+  static const jihati = '/jihati';
+  static const setting = '/setting';
+  static const quran = '/quran';
+  static const aboutme = '/aboutme';
+  static const bookmark = '/bookmark';
+  static const history = '/history';
+  static const accountme = '/accountme';
+  static const jihatiDetail = '/jihati-detail';
+  static const quranDetail = '/quran-detail';
+  static const onboarding = '/onboarding';
 }

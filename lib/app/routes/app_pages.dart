@@ -30,66 +30,66 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.INTRODUCTION;
+  static const initial = Routes.introduction;
 
   static final routes = [
     GetPage(
-      name: _Paths.MAIN_NAVIGATION,
+      name: _Paths.mainNavigation,
       page: () => const MainNavigationView(),
       binding: MainNavigationBinding(),
     ),
     GetPage(
-      name: _Paths.INTRODUCTION,
+      name: _Paths.introduction,
       page: () => const IntroductionView(),
       binding: IntroductionBinding(),
     ),
     GetPage(
-      name: _Paths.JIHATI,
+      name: _Paths.jihati,
       page: () => const JihatiView(),
       binding: JihatiBinding(),
     ),
     GetPage(
-      name: _Paths.SETTING,
+      name: _Paths.setting,
       page: () => const SettingView(),
       binding: SettingBinding(),
     ),
     GetPage(
-      name: _Paths.QURAN,
+      name: _Paths.quran,
       page: () => const QuranView(),
       binding: QuranBinding(),
     ),
     GetPage(
-      name: _Paths.ABOUTME,
+      name: _Paths.aboutme,
       page: () => const AboutmeView(),
       binding: AboutmeBinding(),
     ),
     GetPage(
-      name: _Paths.BOOKMARK,
+      name: _Paths.bookmark,
       page: () => const BookmarkView(),
       binding: BookmarkBinding(),
     ),
     GetPage(
-      name: _Paths.HISTORY,
+      name: _Paths.history,
       page: () => const HistoryView(),
       binding: HistoryBinding(),
     ),
     GetPage(
-      name: _Paths.ACCOUNTME,
+      name: _Paths.accountme,
       page: () => const AccountmeView(),
       binding: AccountmeBinding(),
     ),
     GetPage(
-      name: _Paths.JIHATI_DETAIL,
+      name: _Paths.jihatiDetail,
       page: () => const JihatiDetailView(),
       binding: JihatiDetailBinding(),
     ),
     GetPage(
-      name: _Paths.QURAN_DETAIL,
+      name: _Paths.quranDetail,
       page: () => const QuranDetailView(),
       binding: QuranDetailBinding(),
     ),
     GetPage(
-      name: _Paths.ONBOARDING,
+      name: _Paths.onboarding,
       page: () => const OnboardingView(),
       binding: OnboardingBinding(),
     ),

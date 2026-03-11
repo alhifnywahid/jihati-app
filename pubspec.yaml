@@ -26,6 +26,7 @@ dependencies:
   logger: ^2.6.0
   android_intent_plus: ^5.3.0
   url_launcher_android: ^6.3.16
+  forui: ^0.19.0
 
 dev_dependencies:
   flutter_test:
