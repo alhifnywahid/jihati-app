@@ -1,4 +1,4 @@
-package com.rua.jihati
+package com.gopretstudio.jihati
 
 import io.flutter.embedding.android.FlutterActivity
 

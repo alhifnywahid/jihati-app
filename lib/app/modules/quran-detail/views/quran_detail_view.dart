@@ -41,7 +41,6 @@ class _QuranDetailViewState extends State<QuranDetailView> {
       controller.verses.clear();
       controller.onInit();
     });
-    // Tambahkan ke history setiap kali swipe ke surah baru
     final storage = QuranStorageService();
     final idStr = surahList[index].id.toString();
     final history = storage.getHistory();

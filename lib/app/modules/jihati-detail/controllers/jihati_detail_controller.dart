@@ -16,7 +16,6 @@ class JihatiDetailController extends GetxController {
     arabicTitle = args['arabicTitle'] ?? '';
     latinTitle = args['latinTitle'] ?? '';
 
-    // Hanya history, bookmark dipisah
     final historyController = Get.find<HistoryController>();
     historyController.addToHistory(
       JihatiItem(id: id, titleArabic: arabicTitle, titleLatin: latinTitle),

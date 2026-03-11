@@ -46,7 +46,6 @@ class _JihatiDetailViewState extends State<JihatiDetailView> {
         detailData = data;
         isLoading = false;
       });
-      // Tambahkan ke history setiap kali detail berhasil dimuat
       final item = listItems[currentIndex];
       final historyController = Get.find<HistoryController>();
       historyController.addToHistory(item);

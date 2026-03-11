@@ -13,14 +13,14 @@ val keystoreProperties = Properties().apply {
 }
 
 android {
-    namespace = "com.rua.jihati"
+    namespace = "com.gopretstudio.jihati"
     compileSdk = 35
     ndkVersion = "27.0.12077973"
 
     defaultConfig {
         multiDexEnabled = true
-        applicationId = "com.rua.jihati"
-        minSdk = 21
+        applicationId = "com.gopretstudio.jihati"
+        minSdk = flutter.minSdkVersion
         targetSdk = 35
         versionCode = 7
         versionName = "1.0.0"
