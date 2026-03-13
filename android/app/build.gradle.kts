@@ -14,7 +14,7 @@ val keystoreProperties = Properties().apply {
 
 android {
     namespace = "com.gopretstudio.jihati"
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = "27.0.12077973"
 
     defaultConfig {
@@ -22,8 +22,8 @@ android {
         applicationId = "com.gopretstudio.jihati"
         minSdk = flutter.minSdkVersion
         targetSdk = 35
-        versionCode = 7
-        versionName = "1.0.0"
+        versionCode = 8
+        versionName = "1.1.0"
     }
 
     compileOptions {

@@ -9,7 +9,7 @@ class ThemeController extends GetxController {
 
   ThemeController({required this.localDataSource});
 
-  final themeMode = ThemeMode.system.obs;
+  final themeMode = ThemeMode.light.obs;
 
   @override
   void onInit() {
@@ -17,14 +17,18 @@ class ThemeController extends GetxController {
     themeMode.value = localDataSource.getThemeMode();
   }
 
-  /// Cycles through: system → light → dark → system
+  /// Cycles between light and dark only
   void cycleTheme() {
-    themeMode.value = switch (themeMode.value) {
-      ThemeMode.system => ThemeMode.light,
-      ThemeMode.light => ThemeMode.dark,
-      ThemeMode.dark => ThemeMode.system,
-    };
+    themeMode.value = themeMode.value == ThemeMode.dark
+        ? ThemeMode.light
+        : ThemeMode.dark;
     localDataSource.saveThemeMode(themeMode.value);
+  }
+
+  /// Directly set a specific theme
+  void setTheme(ThemeMode mode) {
+    themeMode.value = mode;
+    localDataSource.saveThemeMode(mode);
   }
 
   /// Legacy compat — toggles between light and dark (skips system)
@@ -40,20 +44,14 @@ class ThemeController extends GetxController {
 
   ThemeMode get currentTheme => themeMode.value;
 
-  IconData get currentThemeIcon => switch (themeMode.value) {
-    ThemeMode.system => LucideIcons.monitor,
-    ThemeMode.light => LucideIcons.sun,
-    ThemeMode.dark => LucideIcons.moon,
-  };
+  IconData get currentThemeIcon =>
+      themeMode.value == ThemeMode.dark ? LucideIcons.moon : LucideIcons.sun;
 
-  String get currentThemeLabel => switch (themeMode.value) {
-    ThemeMode.system => 'Sistem',
-    ThemeMode.light => 'Terang',
-    ThemeMode.dark => 'Gelap',
-  };
+  String get currentThemeLabel =>
+      themeMode.value == ThemeMode.dark ? 'Gelap' : 'Terang';
 
   FThemeData forUiTheme(BuildContext context) {
-    final dark = isDarkEffective(context);
+    final dark = themeMode.value == ThemeMode.dark;
     return dark ? FThemes.green.dark : FThemes.green.light;
   }
 }

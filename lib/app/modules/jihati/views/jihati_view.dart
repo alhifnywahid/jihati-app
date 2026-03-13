@@ -4,8 +4,10 @@ import 'package:get/get.dart';
 import 'package:jihati/app/controllers/theme/theme_controller.dart';
 import 'package:jihati/app/routes/app_pages.dart';
 import 'package:jihati/app/widgets/custom_search_bar.widget.dart';
+import 'package:jihati/app/widgets/green_header.widget.dart';
 import 'package:jihati/app/widgets/jihati_list_view.widget.dart';
 import 'package:jihati/app/widgets/no_result.widget.dart';
+import 'package:jihati/app/widgets/theme_sheet.widget.dart';
 
 import '../controllers/jihati_controller.dart';
 
@@ -16,29 +18,28 @@ class JihatiView extends GetView<JihatiController> {
   Widget build(BuildContext context) {
     final searchController = TextEditingController();
     final searchFocusNode = FocusNode();
-    final ThemeController themeC = Get.find();
+    final themeC = Get.find<ThemeController>();
 
-    return FScaffold(
-      header: FHeader(
-        title: const Text('Jihati'),
-        suffixes: [
-          Obx(
-            () => FHeaderAction(
-              icon: Icon(themeC.currentThemeIcon),
-              onPress: () => themeC.cycleTheme(),
-            ),
-          ),
+    return Scaffold(
+      appBar: greenAppBar(
+        context: context,
+        title: 'Jihati',
+        actions: [
+          Obx(() => FHeaderAction(
+            icon: Icon(themeC.currentThemeIcon, color: Colors.white, size: 20),
+            onPress: () => ThemeSheetDialog.show(context),
+          )),
           FHeaderAction(
-            icon: const Icon(FIcons.history),
+            icon: const Icon(FIcons.history, color: Colors.white, size: 20),
             onPress: () => Get.toNamed(Routes.history),
           ),
           FHeaderAction(
-            icon: const Icon(FIcons.bookmark),
+            icon: const Icon(FIcons.bookmark, color: Colors.white, size: 20),
             onPress: () => Get.toNamed(Routes.bookmark),
           ),
         ],
       ),
-      child: GestureDetector(
+      body: GestureDetector(
         onTap: () => searchFocusNode.unfocus(),
         child: Column(
           children: [

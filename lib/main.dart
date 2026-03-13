@@ -24,35 +24,55 @@ void main() async {
   runApp(const MainApp());
 }
 
+/// Softer charcoal dark — easy on the eyes, not pitch black.
+const _charcoalBg     = Color(0xFF181A1F);
+const _charcoalSurface = Color(0xFF1E2229);
+const _charcoalCard   = Color(0xFF22262E);
+
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     final ThemeController themeController = Get.find();
+
+    // Build ForUI themes once — stable references outside Obx
+    final lightForui = FThemes.green.light;
+    final baseDark   = FThemes.green.dark;
+    final darkForui  = baseDark.copyWith(
+      colors: baseDark.colors.copyWith(
+        foreground: const Color(0xFFC8CDD6),      // soft off-white text
+        mutedForeground: const Color(0xFF8B9099), // subtitle/hint
+        border: const Color(0xFF2C3040),          // dividers — dimmer than text
+        background: _charcoalBg,
+        secondary: _charcoalSurface,
+        muted: _charcoalCard,
+      ),
+    );
+
+    // Material themes both derived from ForUI → same TextStyle.inherit values
+    final lightMaterial = lightForui.toApproximateMaterialTheme();
+    final darkMaterial  = darkForui.toApproximateMaterialTheme().copyWith(
+      scaffoldBackgroundColor: _charcoalBg,
+      canvasColor: _charcoalBg,
+      cardColor: _charcoalCard,
+    );
+
     return Obx(() {
       final mode = themeController.themeMode.value;
-      final lightTheme = FThemes.green.light;
-      final darkTheme = FThemes.green.dark;
-
       return GetMaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Jihati',
         initialRoute: AppPages.initial,
         getPages: AppPages.routes,
         themeMode: mode,
-        theme: lightTheme.toApproximateMaterialTheme(),
-        darkTheme: darkTheme.toApproximateMaterialTheme(),
+        theme: lightMaterial,
+        darkTheme: darkMaterial,
         builder: (context, child) {
-          // Determine active FThemeData based on resolved brightness
-          final brightness = MediaQuery.platformBrightnessOf(context);
-          final isDark = mode == ThemeMode.dark ||
-              (mode == ThemeMode.system && brightness == Brightness.dark);
+          final isDark = mode == ThemeMode.dark;
           return FTheme(
-            data: isDark ? darkTheme : lightTheme,
-            child: FToaster(
-              child: FTooltipGroup(child: child!),
-            ),
+            data: isDark ? darkForui : lightForui,
+            child: FToaster(child: child!),
           );
         },
       );

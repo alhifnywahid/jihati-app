@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:jihati/app/models/surah.model.dart';
@@ -24,12 +25,42 @@ class QuranDetailController extends GetxController {
     _addToHistory();
   }
 
+  void loadSurah(SurahModel newSurah) {
+    surah = newSurah;
+    // Only show loading + clear if not yet cached for this surah
+    if (!_surahVersesCache.containsKey(newSurah.id)) {
+      isLoading.value = true;
+      verses.clear();
+    }
+    _loadVerses();
+    _checkBookmark();
+    _addToHistory();
+  }
+
+  /// All ayat loaded once from asset.
+  static List<VerseModel>? _allVersesCache;
+  /// Per-surah filtered verses cache — no repeated .where() on each swipe.
+  static final Map<int, List<VerseModel>> _surahVersesCache = {};
+
   Future<void> _loadVerses() async {
     try {
-      final response = await rootBundle.loadString('assets/data/alquran/ayat.json');
-      final data = json.decode(response) as List;
-      final allVerses = data.map((e) => VerseModel.fromJson(e)).toList();
-      final filtered = allVerses.where((v) => v.surahId == surah.id).toList();
+      // Check per-surah cache first — instant if already filtered
+      if (_surahVersesCache.containsKey(surah.id)) {
+        verses.assignAll(_surahVersesCache[surah.id]!);
+        isLoading.value = false;
+        return;
+      }
+      // Load global cache (JSON) only once
+      if (_allVersesCache == null) {
+        final response =
+            await rootBundle.loadString('assets/data/alquran/ayat.json');
+        final data = json.decode(response) as List;
+        _allVersesCache =
+            data.map((e) => VerseModel.fromJson(e)).toList();
+      }
+      final filtered =
+          _allVersesCache!.where((v) => v.surahId == surah.id).toList();
+      _surahVersesCache[surah.id] = filtered; // cache for next time
       verses.assignAll(filtered);
     } catch (e) {
       logger.e('Error loading verses: $e');
@@ -49,14 +80,31 @@ class QuranDetailController extends GetxController {
 
     if (isBookmarked.value) {
       bookmarks.remove(idStr);
-      Get.snackbar('Tersimpan', '${surah.name} dihapus dari bookmark');
+      _showSnackbar('${surah.name} dihapus dari Tersimpan');
     } else {
       bookmarks.add(idStr);
-      Get.snackbar('Tersimpan', '${surah.name} disimpan ke bookmark');
+      _showSnackbar('${surah.name} ditambahkan ke Tersimpan');
     }
 
     isBookmarked.toggle();
     storage.saveBookmarks(bookmarks);
+  }
+
+  void _showSnackbar(String message) {
+    final ctx = Get.context;
+    if (ctx == null) return;
+    ScaffoldMessenger.of(ctx)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(
+        SnackBar(
+          content: Text(message),
+          duration: const Duration(seconds: 2),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+        ),
+      );
   }
 
   void _addToHistory() {

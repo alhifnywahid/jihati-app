@@ -2,12 +2,14 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:forui/forui.dart';
 import 'package:get/get.dart';
-import 'package:jihati/app/modules/bookmark/controllers/bookmark_controller.dart';
 import 'package:jihati/app/controllers/theme/theme_controller.dart';
+import 'package:jihati/app/modules/bookmark/controllers/bookmark_controller.dart';
+import 'package:jihati/app/modules/history/controllers/history_controller.dart';
+import 'package:jihati/app/widgets/green_header.widget.dart';
 import 'package:jihati/app/widgets/jihati_type.widget.dart';
 import 'package:jihati/app/widgets/reading_preference_dialog.widget.dart';
+import 'package:jihati/app/widgets/theme_sheet.widget.dart';
 
 class JihatiDetailView extends StatefulWidget {
   const JihatiDetailView({super.key});
@@ -17,7 +19,7 @@ class JihatiDetailView extends StatefulWidget {
 }
 
 class _JihatiDetailViewState extends State<JihatiDetailView> {
-  late List<dynamic> listItems;
+  late List listItems;
   late int currentIndex;
   late PageController _pageController;
   Map<String, dynamic>? detailData;
@@ -27,24 +29,26 @@ class _JihatiDetailViewState extends State<JihatiDetailView> {
   void initState() {
     super.initState();
     final args = Get.arguments as Map<String, dynamic>;
-    listItems = args['listItems'] as List<dynamic>;
-    currentIndex = args['currentIndex'] as int? ?? 0;
+    listItems = args['listItems'] ?? [];
+    currentIndex = args['currentIndex'] ?? 0;
     _pageController = PageController(initialPage: currentIndex);
     _loadDetail(listItems[currentIndex].id);
   }
 
   Future<void> _loadDetail(int id) async {
     setState(() => isLoading = true);
+    final assetPath = 'assets/data/jihati/$id.json';
     try {
-      final raw = await rootBundle.loadString(
-        'assets/data/jihati/$id.json',
-      );
-      final data = json.decode(raw) as Map<String, dynamic>;
+      final String detailJson = await rootBundle.loadString(assetPath);
+      final Map<String, dynamic> data = json.decode(detailJson);
       setState(() {
         detailData = data;
         isLoading = false;
       });
-    } catch (_) {
+      final item = listItems[currentIndex];
+      final historyController = Get.find<HistoryController>();
+      historyController.addToHistory(item);
+    } catch (e) {
       setState(() {
         detailData = null;
         isLoading = false;
@@ -61,127 +65,131 @@ class _JihatiDetailViewState extends State<JihatiDetailView> {
   @override
   Widget build(BuildContext context) {
     final BookmarkController bookmarkController = Get.find();
-    final ThemeController themeC = Get.find();
+    final themeC = Get.find<ThemeController>();
     final item = listItems[currentIndex];
-    final id = item.id;
-    final latinTitle = item.titleLatin;
+    final int id = item.id;
+    final String latinTitle = item.titleLatin;
 
-    return FScaffold(
-      header: FHeader.nested(
-        title: Text(latinTitle),
-        prefixes: [FHeaderAction.back(onPress: () => Get.back())],
-        suffixes: [
-          Obx(
-            () => FHeaderAction(
-              icon: Icon(themeC.currentThemeIcon),
-              onPress: () => themeC.cycleTheme(),
-            ),
-          ),
-          FHeaderAction(
-            icon: const Icon(FIcons.textCursorInput),
-            onPress: () => ReadingPreferenceDialog.show(context),
-          ),
-          Obx(
-            () => FHeaderAction(
-              icon: Icon(
-                bookmarkController.isBookmarked(id)
-                    ? FIcons.bookmarkCheck
-                    : FIcons.bookmarkPlus,
-              ),
-              onPress: () => bookmarkController.toggleBookmark(id, latinTitle),
-            ),
-          ),
-        ],
-      ),
-      child: PageView.builder(
-        controller: _pageController,
-        itemCount: listItems.length,
-        onPageChanged: (index) {
-          if (index < 0 || index >= listItems.length) return;
-          _onPageChanged(index);
-        },
-        itemBuilder: (context, index) {
-          final pageItem = listItems[index];
-          final arabicTitle = pageItem.titleArabic;
-          final pageLatinTitle = pageItem.titleLatin;
-
-          if (isLoading) {
-            return const Center(child: CircularProgressIndicator());
-          }
-
-          return CustomScrollView(
-            slivers: [
-              SliverAppBar(
-                automaticallyImplyLeading: false,
-                floating: true,
-                snap: true,
-                backgroundColor: Colors.transparent,
-                elevation: 0,
-                expandedHeight: 80,
-                collapsedHeight: 60,
-                flexibleSpace: FlexibleSpaceBar(
-                  centerTitle: true,
-                  title: Text(
-                    '\uFD3E $arabicTitle \uFD3F',
-                    textAlign: TextAlign.center,
-                    style: const TextStyle(
-                      fontFamily: 'OmarNaskh',
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      height: 1,
-                    ),
-                  ),
+    return Scaffold(
+      body: SafeArea(top: false,
+        child: Column(
+          children: [
+            GreenHeader(
+              title: latinTitle,
+              suffixes: [
+                Obx(() => GreenHeaderAction(
+                  icon: Icon(themeC.currentThemeIcon, color: Colors.white, size: 20),
+                  onPress: () => ThemeSheetDialog.show(context),
+                )),
+                GreenHeaderAction(
+                  icon: const Icon(Icons.format_size, color: Colors.white, size: 20),
+                  onPress: () => ReadingPreferenceDialog.show(context),
                 ),
-              ),
-              SliverToBoxAdapter(
-                child: Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
+                Obx(() => GreenHeaderAction(
+                  icon: Icon(
+                    bookmarkController.isBookmarked(id)
+                        ? Icons.bookmark
+                        : Icons.bookmark_border,
+                    color: Colors.white,
+                    size: 20,
+                  ),
+                  onPress: () =>
+                      bookmarkController.toggleBookmark(id, latinTitle),
+                )),
+              ],
+            ),
+            Expanded(
+              child: PageView.builder(
+                controller: _pageController,
+                itemCount: listItems.length,
+                onPageChanged: (index) {
+                  if (index < 0 || index >= listItems.length) return;
+                  _onPageChanged(index);
+                },
+                itemBuilder: (context, index) {
+                  final pageItem = listItems[index];
+                  final String pageArabicTitle = pageItem.titleArabic;
+                  final bool pageNotAvailable = detailData == null;
+                  final int? pageSchemaType =
+                      detailData?['schema']?['type'] as int?;
+                  final dynamic pageDetail = detailData?['content'];
+
+                  if (isLoading) {
+                    return const Center(child: CircularProgressIndicator());
+                  }
+
+                  return Column(
                     children: [
-                      if (detailData == null) ...[
-                        Text(
-                          'ID: ${pageItem.id}',
-                          style: const TextStyle(fontSize: 18),
-                        ),
-                        const SizedBox(height: 16),
-                        Text(
-                          arabicTitle,
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            fontFamily: 'LPMQ-IsepMisbah',
-                            fontSize: 36,
-                            fontWeight: FontWeight.bold,
-                            height: 1.5,
+                      // ── Title info bar — same style as Quran detail ──
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 12, horizontal: 16),
+                        decoration: BoxDecoration(
+                          border: Border(
+                            bottom: BorderSide(
+                              width: 0.5,
+                              color: Colors.grey.withAlpha(120),
+                            ),
                           ),
                         ),
-                        const SizedBox(height: 24),
-                        Text(
-                          pageLatinTitle,
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(fontSize: 22, height: 1.5),
-                        ),
-                        const SizedBox(height: 32),
-                        const FAlert(
-                          icon: Icon(FIcons.circleAlert),
-                          title: Text('Data belum tersedia'),
-                        ),
-                      ] else ...[
-                        Obx(
-                          () => JihatiTypeWidget(
-                            schemaType:
-                                detailData!['schema']?['type'] as int? ?? 0,
-                            content: detailData!['content'],
+                        child: Center(
+                          child: Text(
+                            '\uFD3E $pageArabicTitle \uFD3F',
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontFamily: 'OmarNaskh',
+                              fontSize: 22,
+                              fontWeight: FontWeight.bold,
+                              height: 1,
+                            ),
                           ),
                         ),
-                      ],
+                      ),
+                      // ── Content ──
+                      Expanded(
+                        child: SingleChildScrollView(
+                          padding: const EdgeInsets.all(16),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              if (pageNotAvailable) ...[
+                                const SizedBox(height: 24),
+                                Text(
+                                  pageArabicTitle,
+                                  textAlign: TextAlign.center,
+                                  style: const TextStyle(
+                                    fontFamily: 'LPMQ-IsepMisbah',
+                                    fontSize: 36,
+                                    fontWeight: FontWeight.bold,
+                                    height: 1.5,
+                                  ),
+                                ),
+                                const SizedBox(height: 24),
+                                const Text(
+                                  'Data belum tersedia',
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.red),
+                                ),
+                              ] else ...[
+                                JihatiTypeWidget(
+                                  schemaType: pageSchemaType ?? 0,
+                                  content: (pageSchemaType == 2 &&
+                                          pageDetail is List)
+                                      ? List<String>.from(pageDetail)
+                                      : pageDetail,
+                                ),
+                              ],
+                            ],
+                          ),
+                        ),
+                      ),
                     ],
-                  ),
-                ),
+                  );
+                },
               ),
-            ],
-          );
-        },
+            ),
+          ],
+        ),
       ),
     );
   }

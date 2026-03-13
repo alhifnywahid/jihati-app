@@ -9,8 +9,8 @@ class OnboardingView extends GetView<OnboardingController> {
 
   @override
   Widget build(BuildContext context) {
-    return FScaffold(
-      child: SafeArea(
+    return Scaffold(
+      body: SafeArea(
         child: Column(
           children: [
             Expanded(
@@ -45,7 +45,8 @@ class OnboardingView extends GetView<OnboardingController> {
                             ),
                             const SizedBox(height: 10),
                             ConstrainedBox(
-                              constraints: const BoxConstraints(maxWidth: 300),
+                              constraints:
+                                  const BoxConstraints(maxWidth: 300),
                               child: Text(
                                 model.description,
                                 textAlign: TextAlign.center,

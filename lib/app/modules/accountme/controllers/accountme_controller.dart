@@ -53,7 +53,7 @@ class AccountmeController extends GetxController {
       case 'facebook':
         return const Color(0xFF1877F2);
       case 'tiktok':
-        return const Color(0xFF000000);
+        return const Color(0xFF25F4EE); // TikTok teal — visible on dark bg
       default:
         return Colors.grey;
     }

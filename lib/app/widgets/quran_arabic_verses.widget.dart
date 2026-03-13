@@ -13,7 +13,6 @@ class QuranArabicVersesWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Use Material theme colors — compatible with ForUI via toApproximateMaterialTheme()
     final color = Theme.of(context).colorScheme.onSurface;
     return RichText(
       textDirection: TextDirection.rtl,

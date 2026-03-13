@@ -29,10 +29,13 @@ class SettingSectionWidget extends StatelessWidget {
             children: List.generate(items.length, (index) {
               final item = items[index];
               final isSwitch = item['isSwitch'] == true;
+              final subtitle = item['subtitle'] as String?;
+              final onTap = item['onTap'];
 
               return FTile(
                 prefix: Icon(item['icon'] as IconData),
                 title: Text(item['title'] as String),
+                subtitle: subtitle != null ? Text(subtitle) : null,
                 suffix: isSwitch
                     ? FSwitch(
                         value: item['value'] as bool,
@@ -43,7 +46,18 @@ class SettingSectionWidget extends StatelessWidget {
                         },
                       )
                     : const Icon(FIcons.chevronRight),
-                onPress: isSwitch ? null : item['onTap'] as VoidCallback?,
+                onPress: isSwitch
+                    ? null
+                    : onTap != null
+                        ? () {
+                            // support both onTap() and onTap(context)
+                            try {
+                              (onTap as Function)(context);
+                            } catch (_) {
+                              (onTap as Function)();
+                            }
+                          }
+                        : null,
               );
             }),
           ),
